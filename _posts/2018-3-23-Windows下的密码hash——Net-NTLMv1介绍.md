@@ -6,7 +6,7 @@ title: Windows下的密码hash——Net-NTLMv1介绍
 ## 0x00 前言
 ---
 
-在之前的文章[《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》](https://3gstudent.github.io/Windows%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81hash-NTLM-hash%E5%92%8CNet-NTLM-hash%E4%BB%8B%E7%BB%8D/)分别对NTLM hash和Net-NTLMv2 hash做了介绍，对于Net-NTLMv2的上一个版本Net-NTLMv1，在安全性上相对来说更脆弱，具体脆弱在哪里呢？本文将要进行介绍
+在之前的文章[《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》](https://3gstudent.github.io/Windows%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81hash-NTLM-hash%E5%92%8CNet-NTLM-hash%E4%BB%8B%E7%BB%8D)分别对NTLM hash和Net-NTLMv2 hash做了介绍，对于Net-NTLMv2的上一个版本Net-NTLMv1，在安全性上相对来说更脆弱，具体脆弱在哪里呢？本文将要进行介绍
 
 
 ## 0x01 简介

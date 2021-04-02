@@ -188,7 +188,7 @@ Get-Acl -Path c:\windows|select Owner
 - 特殊COM文件
 - 磁盘根目录
 
-更多细节可参考文章[《Hidden Alternative Data Streams的进阶利用技巧》](https://3gstudent.github.io/Hidden-Alternative-Data-Streams%E7%9A%84%E8%BF%9B%E9%98%B6%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7/)
+更多细节可参考文章[《Hidden Alternative Data Streams的进阶利用技巧》](https://3gstudent.github.io/Hidden-Alternative-Data-Streams%E7%9A%84%E8%BF%9B%E9%98%B6%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7)
 
 
 当然，Invoke-WScriptBypassUAC使用的ADS位置也很隐蔽

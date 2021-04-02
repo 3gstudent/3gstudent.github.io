@@ -28,9 +28,9 @@ https://tyranidslair.blogspot.co.uk/2017/05/exploiting-environment-variables-in.
 
 在之前文章也分享过一些绕过UAC思路的心得，可参考以下文章：
 
-https://3gstudent.github.io/Study-Notes-of-using-sdclt.exe-to-bypass-UAC/
+https://3gstudent.github.io/Study-Notes-of-using-sdclt.exe-to-bypass-UAC
 
-https://3gstudent.github.io/Study-Notes-Weekly-No.1(Monitor-WMI_ExportsToC++_Use-DiskCleanup-bypass-UAC)/
+https://3gstudent.github.io/Study-Notes-Weekly-No.1(Monitor-WMI_ExportsToC++_Use-DiskCleanup-bypass-UAC)
 
 个人认为寻找绕过UAC的方法可分为以下两个步骤：
 

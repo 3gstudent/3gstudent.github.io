@@ -35,7 +35,7 @@ Outlook MAPI同EWS的区别：
 - Outlook MAPI用来访问Outlook客户端中的资源
 - EWS用来访问Exchange服务器中的资源
 
-关于EWS的使用可以参考之前的文章[《Exchange Web Service(EWS)开发指南》](https://3gstudent.github.io/Exchange-Web-Service(EWS)%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/)
+关于EWS的使用可以参考之前的文章[《Exchange Web Service(EWS)开发指南》](https://3gstudent.github.io/Exchange-Web-Service(EWS)%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97)
 
 Outlook客户端中的用户邮件存储在后缀名为ost的文件中，和Exchange服务器中的数据库保持一致
 
@@ -191,7 +191,7 @@ https://support.microsoft.com/en-us/help/3189806/a-program-is-trying-to-send-an-
 
 ![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2020-4-17/2-4.png)
 
-如果选择了记住凭据，那么后续操作不会要求输入凭据，关于凭据的使用可以参考之前的文章[《渗透技巧——Windows中Credential Manager的信息获取》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%ADCredential-Manager%E7%9A%84%E4%BF%A1%E6%81%AF%E8%8E%B7%E5%8F%96/)
+如果选择了记住凭据，那么后续操作不会要求输入凭据，关于凭据的使用可以参考之前的文章[《渗透技巧——Windows中Credential Manager的信息获取》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%ADCredential-Manager%E7%9A%84%E4%BF%A1%E6%81%AF%E8%8E%B7%E5%8F%96)
 
 ## 0x04 开源实现代码mapi_tool
 ---

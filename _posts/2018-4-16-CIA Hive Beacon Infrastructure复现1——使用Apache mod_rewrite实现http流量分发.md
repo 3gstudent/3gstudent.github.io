@@ -16,7 +16,7 @@ title: CIA Hive Beacon Infrastructure复现1——使用Apache mod_rewrite实现
 
 之前的分析文章：
 
-[《CIA Hive测试指南——源代码获取与简要分析》](https://3gstudent.github.io/CIA-Hive%E6%B5%8B%E8%AF%95%E6%8C%87%E5%8D%97-%E6%BA%90%E4%BB%A3%E7%A0%81%E8%8E%B7%E5%8F%96%E4%B8%8E%E7%AE%80%E8%A6%81%E5%88%86%E6%9E%90/)
+[《CIA Hive测试指南——源代码获取与简要分析》](https://3gstudent.github.io/CIA-Hive%E6%B5%8B%E8%AF%95%E6%8C%87%E5%8D%97-%E6%BA%90%E4%BB%A3%E7%A0%81%E8%8E%B7%E5%8F%96%E4%B8%8E%E7%AE%80%E8%A6%81%E5%88%86%E6%9E%90)
 
 ## 0x01 简介
 ---

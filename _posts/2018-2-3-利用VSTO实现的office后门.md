@@ -7,7 +7,7 @@ title: 利用VSTO实现的office后门
 ## 0x00 前言
 --
 
-最近看了一篇文章《VSTO: The Payload Installer That Probably Defeats Your Application Whitelisting Rules》，介绍了利用VSTO实现Office后门的方法，我在之前的文章[《Use Office to maintain persistence》](https://3gstudent.github.io/Use-Office-to-maintain-persistence/)和[《Office Persistence on x64 operating system》](https://3gstudent.github.io/Office-Persistence-on-x64-operating-system/)曾对Office的后门进行过学习，本文将结合自己的研究心得，对该方法进行复现，分析利用思路，分享实际利用方法，最后介绍如何识别这种后门。
+最近看了一篇文章《VSTO: The Payload Installer That Probably Defeats Your Application Whitelisting Rules》，介绍了利用VSTO实现Office后门的方法，我在之前的文章[《Use Office to maintain persistence》](https://3gstudent.github.io/Use-Office-to-maintain-persistence)和[《Office Persistence on x64 operating system》](https://3gstudent.github.io/Office-Persistence-on-x64-operating-system)曾对Office的后门进行过学习，本文将结合自己的研究心得，对该方法进行复现，分析利用思路，分享实际利用方法，最后介绍如何识别这种后门。
 
 文章地址：
 

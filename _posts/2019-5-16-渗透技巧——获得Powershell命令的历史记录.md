@@ -175,7 +175,7 @@ msiexec /q /i PackageManagement_x64.msi
 
 安装成功后，在控制面板的已安装程序列表(Control Panel\Programs\Programs and Features)有显示:`Package Management Preview - x64`
 
-可以通过删除对应的注册表项进行隐藏，更多细节可参考[《渗透基础——获得当前系统已安装的程序列表》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E8%8E%B7%E5%BE%97%E5%BD%93%E5%89%8D%E7%B3%BB%E7%BB%9F%E5%B7%B2%E5%AE%89%E8%A3%85%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%88%97%E8%A1%A8/)
+可以通过删除对应的注册表项进行隐藏，更多细节可参考[《渗透基础——获得当前系统已安装的程序列表》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E8%8E%B7%E5%BE%97%E5%BD%93%E5%89%8D%E7%B3%BB%E7%BB%9F%E5%B7%B2%E5%AE%89%E8%A3%85%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%88%97%E8%A1%A8)
 
 `Package Management Preview - x64`的注册表路径为`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{57E5A8BB-41EB-4F09-B332-B535C5954A28}`
 

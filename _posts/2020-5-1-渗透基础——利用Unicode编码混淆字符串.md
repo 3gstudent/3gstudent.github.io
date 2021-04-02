@@ -119,7 +119,7 @@ https://3gstudent.github.io/tool/BrailleGenerator.html
 
 为了能够同利用方式相结合(例如内存加载PE文件)，所以这里使用C sharp实现
 
-关于内存加载PE文件的细节可参考之前的文章[《通过.NET实现内存加载PE文件》](https://3gstudent.github.io/%E9%80%9A%E8%BF%87.NET%E5%AE%9E%E7%8E%B0%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BDPE%E6%96%87%E4%BB%B6/)
+关于内存加载PE文件的细节可参考之前的文章[《通过.NET实现内存加载PE文件》](https://3gstudent.github.io/%E9%80%9A%E8%BF%87.NET%E5%AE%9E%E7%8E%B0%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BDPE%E6%96%87%E4%BB%B6)
 
 程序实现流程如下：
 

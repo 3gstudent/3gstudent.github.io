@@ -7,7 +7,7 @@ title: 渗透技巧——使用Mimilib从dump文件中导出口令
 ## 0x00 前言
 ---
 
-在上篇文章[《Mimilib利用分析》](https://3gstudent.github.io/Mimilib%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)提到mimilib可作为WinDbg的插件进行使用，所以本文将会详细介绍这个插件的用法，实现从内核模式转储文件中导出口令，结合利用思路给出防御建议
+在上篇文章[《Mimilib利用分析》](https://3gstudent.github.io/Mimilib%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)提到mimilib可作为WinDbg的插件进行使用，所以本文将会详细介绍这个插件的用法，实现从内核模式转储文件中导出口令，结合利用思路给出防御建议
 
 ## 0x01 简介
 ---
@@ -45,7 +45,7 @@ https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/user-mode-dum
 
 从用户模式转储文件导出口令的方法:
 
-可参考之前的文章[《渗透基础-从lsass.exe进程导出凭据》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E4%BB%8Elsass.exe%E8%BF%9B%E7%A8%8B%E5%AF%BC%E5%87%BA%E5%87%AD%E6%8D%AE/)
+可参考之前的文章[《渗透基础-从lsass.exe进程导出凭据》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E4%BB%8Elsass.exe%E8%BF%9B%E7%A8%8B%E5%AF%BC%E5%87%BA%E5%87%AD%E6%8D%AE)
 
 ### 2.Kernel-Mode Dump Files
 
@@ -120,7 +120,7 @@ reg add hklm\SYSTEM\CurrentControlSet\Control\CrashControl /v CrashDumpEnabled /
 
 这里也可以先将指定进程设置为critical process，结束该进程后也会导致BSOD
 
-具体细节可参考之前的文章[《结束进程导致BSOD的利用分析》](https://3gstudent.github.io/%E7%BB%93%E6%9D%9F%E8%BF%9B%E7%A8%8B%E5%AF%BC%E8%87%B4BSOD%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
+具体细节可参考之前的文章[《结束进程导致BSOD的利用分析》](https://3gstudent.github.io/%E7%BB%93%E6%9D%9F%E8%BF%9B%E7%A8%8B%E5%AF%BC%E8%87%B4BSOD%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
 
 #### (2)使用NotMyFault
 
@@ -259,7 +259,7 @@ SymChk /im c:\test\man.txt /s srv*c:\mysymbolNew*https://msdl.microsoft.com/down
 
 ### 4.加载mimilib插件
 
-可参考之前的文章[《Mimilib利用分析》](https://3gstudent.github.io/Mimilib%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
+可参考之前的文章[《Mimilib利用分析》](https://3gstudent.github.io/Mimilib%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
 
 ### (1)方法1
 

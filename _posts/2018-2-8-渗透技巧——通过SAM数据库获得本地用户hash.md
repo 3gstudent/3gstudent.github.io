@@ -177,7 +177,7 @@ http://www.xfocus.net/articles/200306/550.html
 
 最直接的导出方式是读取当前系统下的注册表HKLM\SYSTEM和HKLM\SAM，但需要获得system权限
 
-从admin切换到system权限的方法可参考之前的文章：[《渗透技巧——从Admin权限切换到System权限》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BB%8EAdmin%E6%9D%83%E9%99%90%E5%88%87%E6%8D%A2%E5%88%B0System%E6%9D%83%E9%99%90/)
+从admin切换到system权限的方法可参考之前的文章：[《渗透技巧——从Admin权限切换到System权限》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BB%8EAdmin%E6%9D%83%E9%99%90%E5%88%87%E6%8D%A2%E5%88%B0System%E6%9D%83%E9%99%90)
 
 
 ## 0x04 小节

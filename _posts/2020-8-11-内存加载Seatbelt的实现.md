@@ -13,7 +13,7 @@ title: 内存加载Seatbelt的实现
 
 为了能够扩展Seatbelt的使用场景，在不修改Seatbelt任何代码的前提下，本文将要介绍两种通过内存加载Seatbelt的方法(Assembly.Load和execute-assembly)，分别补全向.NET程序集的Main函数传入参数的实现代码。
 
-之前的文章[《从内存加载.NET程序集(Assembly.Load)的利用分析》](https://3gstudent.github.io/%E4%BB%8E%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BD.NET%E7%A8%8B%E5%BA%8F%E9%9B%86(Assembly.Load)%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)和[《从内存加载.NET程序集(execute-assembly)的利用分析》](https://3gstudent.github.io/%E4%BB%8E%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BD.NET%E7%A8%8B%E5%BA%8F%E9%9B%86(execute-assembly)%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
+之前的文章[《从内存加载.NET程序集(Assembly.Load)的利用分析》](https://3gstudent.github.io/%E4%BB%8E%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BD.NET%E7%A8%8B%E5%BA%8F%E9%9B%86(Assembly.Load)%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)和[《从内存加载.NET程序集(execute-assembly)的利用分析》](https://3gstudent.github.io/%E4%BB%8E%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BD.NET%E7%A8%8B%E5%BA%8F%E9%9B%86(execute-assembly)%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
 只介绍了向指定类的方法传入参数的实现代码
 
 ## 0x01 简介

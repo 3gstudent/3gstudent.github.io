@@ -65,7 +65,7 @@ LDAP连接服务器的连接字串格式为：ldap://servername/DN
 
 #### 3.如果对域对象具有WriteDACL权限，就能够为指定域用户添加ACE，使其获得利用DCSync导出域内所有用户hash的权限，接下来可以使用域用户krbtgt的hash制作Golden Ticket，登录域控制器，获得对整个域的控制权限
 
-详细利用方法可参考之前的文章：[《域渗透——DCSync》](https://3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-DCSync/)
+详细利用方法可参考之前的文章：[《域渗透——DCSync》](https://3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-DCSync)
 
 #### 4.使用PowerView能够对域对象的ACL进行操作
 
@@ -75,7 +75,7 @@ https://github.com/PowerShellMafia/PowerSploit/blob/dev/Recon/PowerView.ps1
 
 https://github.com/PowerShellMafia/PowerSploit/blob/master/Recon/PowerView.ps1
 
-这个细节在之前的文章[《域渗透——AdminSDHolder》](https://3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-AdminSDHolder/)有过介绍
+这个细节在之前的文章[《域渗透——AdminSDHolder》](https://3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-AdminSDHolder)有过介绍
 
 ### 实际测试
 

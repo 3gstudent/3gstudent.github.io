@@ -6,7 +6,7 @@ title: CIA Vault7 RDB中的Windows后门利用方法分析
 ## 0x00 前言
 ---
 
-在上篇文章[《CIA Hive测试指南——源代码获取与简要分析》](https://3gstudent.github.io/CIA-Hive%E6%B5%8B%E8%AF%95%E6%8C%87%E5%8D%97-%E6%BA%90%E4%BB%A3%E7%A0%81%E8%8E%B7%E5%8F%96%E4%B8%8E%E7%AE%80%E8%A6%81%E5%88%86%E6%9E%90/)对维基解密公布的代号为`Vault 8`的文档进行了研究，简要分析服务器远程控制工具`Hive`
+在上篇文章[《CIA Hive测试指南——源代码获取与简要分析》](https://3gstudent.github.io/CIA-Hive%E6%B5%8B%E8%AF%95%E6%8C%87%E5%8D%97-%E6%BA%90%E4%BB%A3%E7%A0%81%E8%8E%B7%E5%8F%96%E4%B8%8E%E7%AE%80%E8%A6%81%E5%88%86%E6%9E%90)对维基解密公布的代号为`Vault 8`的文档进行了研究，简要分析服务器远程控制工具`Hive`
 
 本文将要继续对维基解密公布的CIA相关资料进行分析，介绍`Vault 7`中`Remote Development Branch (RDB)`中提到的Windows后门利用方法
 

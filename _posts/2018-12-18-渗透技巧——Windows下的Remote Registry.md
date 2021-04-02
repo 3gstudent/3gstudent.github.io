@@ -157,7 +157,7 @@ gpupdate /force
 
 **注：**
 
-详细的利用测试可参考之前的文章[《域渗透——利用GPO中的计划任务实现远程执行》](https://3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8GPO%E4%B8%AD%E7%9A%84%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1%E5%AE%9E%E7%8E%B0%E8%BF%9C%E7%A8%8B%E6%89%A7%E8%A1%8C/)
+详细的利用测试可参考之前的文章[《域渗透——利用GPO中的计划任务实现远程执行》](https://3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8GPO%E4%B8%AD%E7%9A%84%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1%E5%AE%9E%E7%8E%B0%E8%BF%9C%E7%A8%8B%E6%89%A7%E8%A1%8C)
 
 劫持taskhost.exe进程的启动：
 
@@ -182,7 +182,7 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SilentP
 ## 0x03 利用方法2：获取SAM文件中的用户hash
 ---
 
-通过注册表的SAM文件，能够还原出当前系统的本地用户hash，详细方法可参考之前的文章[《渗透技巧-通过SAM数据库获得本地用户hash》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E9%80%9A%E8%BF%87SAM%E6%95%B0%E6%8D%AE%E5%BA%93%E8%8E%B7%E5%BE%97%E6%9C%AC%E5%9C%B0%E7%94%A8%E6%88%B7hash/)
+通过注册表的SAM文件，能够还原出当前系统的本地用户hash，详细方法可参考之前的文章[《渗透技巧-通过SAM数据库获得本地用户hash》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E9%80%9A%E8%BF%87SAM%E6%95%B0%E6%8D%AE%E5%BA%93%E8%8E%B7%E5%BE%97%E6%9C%AC%E5%9C%B0%E7%94%A8%E6%88%B7hash)
 
 简要流程如下：
 

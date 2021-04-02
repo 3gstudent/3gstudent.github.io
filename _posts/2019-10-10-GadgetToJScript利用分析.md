@@ -150,7 +150,7 @@ GadgetToJScript应该算是对James Forshaw开源的DotNetToJScript的进一步�
 ## 0x05 同SILENTTRINITY结合的方法
 ---
 
-对于SILENTTRINITY，我在之前的文章[《SILENTTRINITY利用分析》](https://3gstudent.github.io/3gstudent.github.io/SILENTTRINITY%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)做过分析
+对于SILENTTRINITY，我在之前的文章[《SILENTTRINITY利用分析》](https://3gstudent.github.io/SILENTTRINITY%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)做过分析
 
 **注：**
 

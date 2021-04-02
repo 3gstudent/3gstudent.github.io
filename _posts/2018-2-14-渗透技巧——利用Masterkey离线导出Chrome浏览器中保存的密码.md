@@ -7,11 +7,11 @@ title: 渗透技巧——利用Masterkey离线导出Chrome浏览器中保存的�
 ## 0x00 前言
 ---
 
-在之前的文章[《渗透技巧——离线导出Chrome浏览器中保存的密码》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E7%A6%BB%E7%BA%BF%E5%AF%BC%E5%87%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81/)曾得出结论：`使用用户的ntlm hash，无法导出Chrome浏览器保存的明文密码`。
+在之前的文章[《渗透技巧——离线导出Chrome浏览器中保存的密码》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E7%A6%BB%E7%BA%BF%E5%AF%BC%E5%87%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81)曾得出结论：`使用用户的ntlm hash，无法导出Chrome浏览器保存的明文密码`。
 
 而目前的Windows系统(如Windows Server 2012)，默认无法导出用户的明文口令，只能获得ntlm hash。
 
-也就是说，即使获得了系统的访问权限，如果无法获得明文口令，通过文章[《渗透技巧——离线导出Chrome浏览器中保存的密码》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E7%A6%BB%E7%BA%BF%E5%AF%BC%E5%87%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81/)介绍的方法还是无法离线(但可以在线)导出Chrome浏览器保存的明文密码。
+也就是说，即使获得了系统的访问权限，如果无法获得明文口令，通过文章[《渗透技巧——离线导出Chrome浏览器中保存的密码》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E7%A6%BB%E7%BA%BF%E5%AF%BC%E5%87%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81)介绍的方法还是无法离线(但可以在线)导出Chrome浏览器保存的明文密码。
 
 本文将要介绍一种新方法，利用Masterkey离线导出Chrome浏览器中保存的密码，不需要获得用户的明文口令，并且得出新的结论。
 
@@ -50,7 +50,7 @@ title: 渗透技巧——利用Masterkey离线导出Chrome浏览器中保存的�
 
 ### 1、定位加密的Master Key file
 
-文章[《渗透技巧——离线导出Chrome浏览器中保存的密码》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E7%A6%BB%E7%BA%BF%E5%AF%BC%E5%87%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81/)曾得出结论：`无法定位解密Chrome数据库对应的Master Key file`
+文章[《渗透技巧——离线导出Chrome浏览器中保存的密码》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E7%A6%BB%E7%BA%BF%E5%AF%BC%E5%87%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81)曾得出结论：`无法定位解密Chrome数据库对应的Master Key file`
 
 该结论有误，实际上能够对其定位，方法见0x04
 

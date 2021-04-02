@@ -8,7 +8,7 @@ title: 渗透技巧——通过HTTP协议获得Net-NTLM hash
 ---
 
 
-在之前的文章[《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》](https://3gstudent.github.io/Windows%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81hash-NTLM-hash%E5%92%8CNet-NTLM-hash%E4%BB%8B%E7%BB%8D/)、[《渗透技巧——利用netsh抓取连接文件服务器的NTLMv2 Hash》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8netsh%E6%8A%93%E5%8F%96%E8%BF%9E%E6%8E%A5%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84NTLMv2-Hash/)和[《渗透技巧——利用图标文件获取连接文件服务器的NTLMv2 Hash》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8%E5%9B%BE%E6%A0%87%E6%96%87%E4%BB%B6%E8%8E%B7%E5%8F%96%E8%BF%9E%E6%8E%A5%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84NTLMv2-Hash/)曾介绍了通过SMB协议获得登录用户Net-NTLM hash的方法，利用的前提是客户端通过界面使用SMB协议连接服务器时，默认先使用本机的用户名和密码hash尝试登录。
+在之前的文章[《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》](https://3gstudent.github.io/Windows%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81hash-NTLM-hash%E5%92%8CNet-NTLM-hash%E4%BB%8B%E7%BB%8D)、[《渗透技巧——利用netsh抓取连接文件服务器的NTLMv2 Hash》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8netsh%E6%8A%93%E5%8F%96%E8%BF%9E%E6%8E%A5%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84NTLMv2-Hash)和[《渗透技巧——利用图标文件获取连接文件服务器的NTLMv2 Hash》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8%E5%9B%BE%E6%A0%87%E6%96%87%E4%BB%B6%E8%8E%B7%E5%8F%96%E8%BF%9E%E6%8E%A5%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84NTLMv2-Hash)曾介绍了通过SMB协议获得登录用户Net-NTLM hash的方法，利用的前提是客户端通过界面使用SMB协议连接服务器时，默认先使用本机的用户名和密码hash尝试登录。
 
 对于HTTP协议，也同样支持NTLM认证。那么，通过HTTP协议能否同样获得当前登录用户的Net-NTLM hash呢？限制条件有哪些？如何防御？本文将要逐一介绍。
 
@@ -126,7 +126,7 @@ NTLMv2的格式为：
 
 详细细节可参考：
 
-[《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》](https://3gstudent.github.io/Windows%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81hash-NTLM-hash%E5%92%8CNet-NTLM-hash%E4%BB%8B%E7%BB%8D/)中的0x03部分
+[《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》](https://3gstudent.github.io/Windows%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81hash-NTLM-hash%E5%92%8CNet-NTLM-hash%E4%BB%8B%E7%BB%8D)中的0x03部分
 
 
 ## 0x03 利用分析

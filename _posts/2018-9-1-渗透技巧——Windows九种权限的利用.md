@@ -7,7 +7,7 @@ title: 渗透技巧——Windows九种权限的利用
 ## 0x00 前言
 ---
 
-在之前的文章[《渗透技巧——从Admin权限切换到System权限》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BB%8EAdmin%E6%9D%83%E9%99%90%E5%88%87%E6%8D%A2%E5%88%B0System%E6%9D%83%E9%99%90/)和[《渗透技巧——Token窃取与利用》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Token%E7%AA%83%E5%8F%96%E4%B8%8E%E5%88%A9%E7%94%A8/)分别介绍了从admin权限切换到system权限和TrustedInstaller权限的方法，其中的主要方法是利用token切换权限。
+在之前的文章[《渗透技巧——从Admin权限切换到System权限》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BB%8EAdmin%E6%9D%83%E9%99%90%E5%88%87%E6%8D%A2%E5%88%B0System%E6%9D%83%E9%99%90)和[《渗透技巧——Token窃取与利用》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Token%E7%AA%83%E5%8F%96%E4%B8%8E%E5%88%A9%E7%94%A8)分别介绍了从admin权限切换到system权限和TrustedInstaller权限的方法，其中的主要方法是利用token切换权限。
 
 那么，普通用户(或者LocalService用户)的特殊Token有哪些可利用方法呢？能否提权？如何判断？
 

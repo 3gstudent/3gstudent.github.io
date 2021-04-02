@@ -35,7 +35,7 @@ https://github.com/FuzzySecurity/Sharp-Suite/blob/master/SwampThing
 
 方法上同创建傀儡进程类似，区别在于这个方法只修改新进程的CommandLine参数
 
-关于傀儡进程的技术细节，可参考之前的文章: [《傀儡进程的实现与检测》](https://3gstudent.github.io/3gstudent.github.io/%E5%82%80%E5%84%A1%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%AE%9E%E7%8E%B0%E4%B8%8E%E6%A3%80%E6%B5%8B/)
+关于傀儡进程的技术细节，可参考之前的文章: [《傀儡进程的实现与检测》](https://3gstudent.github.io/%E5%82%80%E5%84%A1%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%AE%9E%E7%8E%B0%E4%B8%8E%E6%A3%80%E6%B5%8B)
 
 ### 实现思路：
 
@@ -169,7 +169,7 @@ https://github.com/3gstudent/Homework-of-C-Language/blob/master/ProcessCommandli
 
 在利用上，还可以选择wmic.exe，正如SwampThing提到的那样——使用wmic来加载一个xsl文件
 
-通过wmic加载xsl文件的方法可参考我之前的两篇文章：[《Use msxsl to bypass AppLocker》](https://3gstudent.github.io/3gstudent.github.io/Use-msxsl-to-bypass-AppLocker/)和[《利用wmic调用xsl文件的分析与利用》](https://3gstudent.github.io/3gstudent.github.io/%E5%88%A9%E7%94%A8wmic%E8%B0%83%E7%94%A8xsl%E6%96%87%E4%BB%B6%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E5%88%A9%E7%94%A8/)
+通过wmic加载xsl文件的方法可参考我之前的两篇文章：[《Use msxsl to bypass AppLocker》](https://3gstudent.github.io/Use-msxsl-to-bypass-AppLocker)和[《利用wmic调用xsl文件的分析与利用》](https://3gstudent.github.io/%E5%88%A9%E7%94%A8wmic%E8%B0%83%E7%94%A8xsl%E6%96%87%E4%BB%B6%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E5%88%A9%E7%94%A8)
 
 当然，SwampThing和我开源的C代码都需要修改以后才能实现通过wmic加载xsl
 

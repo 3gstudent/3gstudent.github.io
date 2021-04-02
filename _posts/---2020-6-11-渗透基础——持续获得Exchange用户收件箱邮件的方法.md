@@ -562,7 +562,7 @@ https://docs.microsoft.com/en-us/exchange/recipients/user-mailboxes/email-forwar
 
 (3)使用PSSession连接Exchange服务器
 
-详细方法可以参考之前的文章[《渗透基础——从Exchange服务器上搜索和导出邮件》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E4%BB%8EExchange%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E6%90%9C%E7%B4%A2%E5%92%8C%E5%AF%BC%E5%87%BA%E9%82%AE%E4%BB%B6/)
+详细方法可以参考之前的文章[《渗透基础——从Exchange服务器上搜索和导出邮件》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E4%BB%8EExchange%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E6%90%9C%E7%B4%A2%E5%92%8C%E5%AF%BC%E5%87%BA%E9%82%AE%E4%BB%B6)
 
 
 添加将用户test1收件箱的邮件转发至用户test2的powershell命令如下：
