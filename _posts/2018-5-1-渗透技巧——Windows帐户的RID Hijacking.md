@@ -7,7 +7,7 @@ title: 渗透技巧——Windows帐户的RID Hijacking
 ## 0x00 前言
 ---
 
-在之前的文章[《渗透技巧——Windows系统的帐户隐藏》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B8%90%E6%88%B7%E9%9A%90%E8%97%8F/)介绍过利用帐户克隆建立隐藏帐户的技巧，是通过复制目标帐户对应注册表项F键的值，使得隐藏帐户获得了相同的权限。
+在之前的文章[《渗透技巧——Windows系统的帐户隐藏》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B8%90%E6%88%B7%E9%9A%90%E8%97%8F/)介绍过利用帐户克隆建立隐藏帐户的技巧，是通过复制目标帐户对应注册表项F键的值，使得隐藏帐户获得了相同的权限。
 
 如果换一种思路，将目标帐户对应注册表项F键的部分内容覆盖已有帐户，那么已有帐户能否获得目标帐户的权限呢？
 
@@ -181,7 +181,7 @@ F键的内容如下图
 3. 修改固定偏移地址，指定为新的RID
 4. 导入注册表，完成修改
 
-具体实现细节上可参考文章[《渗透技巧——Windows系统的帐户隐藏》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B8%90%E6%88%B7%E9%9A%90%E8%97%8F/)中的说明
+具体实现细节上可参考文章[《渗透技巧——Windows系统的帐户隐藏》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E7%B3%BB%E7%BB%9F%E7%9A%84%E5%B8%90%E6%88%B7%E9%9A%90%E8%97%8F/)中的说明
 
 参考代码：
 

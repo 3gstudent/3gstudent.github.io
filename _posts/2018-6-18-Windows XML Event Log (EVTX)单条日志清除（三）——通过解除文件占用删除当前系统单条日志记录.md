@@ -22,7 +22,7 @@ Windows XML Event Log (EVTX)单条日志清除系列文章的第三篇，介绍�
 ## 0x02 删除思路
 ---
 
-在上篇文章[《Windows XML Event Log (EVTX)单条日志清除（二）——程序实现删除evtx文件的单条日志记录》](https://3gstudent.github.io/3gstudent.github.io/Windows-XML-Event-Log-(EVTX)%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E6%B8%85%E9%99%A4-%E4%BA%8C-%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E5%88%A0%E9%99%A4evtx%E6%96%87%E4%BB%B6%E7%9A%84%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95/)介绍了删除单条日志记录的方法，但如果直接用来删除当前系统的日志，在打开文件时会报错，提示文件被占用
+在上篇文章[《Windows XML Event Log (EVTX)单条日志清除（二）——程序实现删除evtx文件的单条日志记录》](https://3gstudent.github.io/Windows-XML-Event-Log-(EVTX)%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E6%B8%85%E9%99%A4-%E4%BA%8C-%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E5%88%A0%E9%99%A4evtx%E6%96%87%E4%BB%B6%E7%9A%84%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95/)介绍了删除单条日志记录的方法，但如果直接用来删除当前系统的日志，在打开文件时会报错，提示文件被占用
 
 这是因为当前系统启动日志服务Eventlog后，会以独占模式打开日志文件，导致其他进程无法打开该日志文件，也就无法进行修改操作
 
@@ -373,7 +373,7 @@ BOOL CloseFileHandle(LPWSTR buf1, DWORD pid)
 ## 0x06 修改日志文件，删除日志记录
 ---
 
-结束Eventlog服务对应的进程后，获得了操作日志文件的权限，修改日志文件的方法和c代码可参考上一篇文章[《Windows XML Event Log (EVTX)单条日志清除（二）——程序实现删除evtx文件的单条日志记录》](https://3gstudent.github.io/3gstudent.github.io/Windows-XML-Event-Log-(EVTX)%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E6%B8%85%E9%99%A4-%E4%BA%8C-%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E5%88%A0%E9%99%A4evtx%E6%96%87%E4%BB%B6%E7%9A%84%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95/)
+结束Eventlog服务对应的进程后，获得了操作日志文件的权限，修改日志文件的方法和c代码可参考上一篇文章[《Windows XML Event Log (EVTX)单条日志清除（二）——程序实现删除evtx文件的单条日志记录》](https://3gstudent.github.io/Windows-XML-Event-Log-(EVTX)%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E6%B8%85%E9%99%A4-%E4%BA%8C-%E7%A8%8B%E5%BA%8F%E5%AE%9E%E7%8E%B0%E5%88%A0%E9%99%A4evtx%E6%96%87%E4%BB%B6%E7%9A%84%E5%8D%95%E6%9D%A1%E6%97%A5%E5%BF%97%E8%AE%B0%E5%BD%95/)
 
 代码参考地址：
 
@@ -435,7 +435,7 @@ https://github.com/3gstudent/Windwos-EventLog-Bypass
 
 介绍细节的分析文章：
 
-[《利用API NtQueryInformationThread和I_QueryTagInformation实现对Windwos日志监控的绕过》](https://3gstudent.github.io/3gstudent.github.io/%E5%88%A9%E7%94%A8API-NtQueryInformationThread%E5%92%8CI_QueryTagInformation%E5%AE%9E%E7%8E%B0%E5%AF%B9Windwos%E6%97%A5%E5%BF%97%E7%9B%91%E6%8E%A7%E7%9A%84%E7%BB%95%E8%BF%87/)
+[《利用API NtQueryInformationThread和I_QueryTagInformation实现对Windwos日志监控的绕过》](https://3gstudent.github.io/%E5%88%A9%E7%94%A8API-NtQueryInformationThread%E5%92%8CI_QueryTagInformation%E5%AE%9E%E7%8E%B0%E5%AF%B9Windwos%E6%97%A5%E5%BF%97%E7%9B%91%E6%8E%A7%E7%9A%84%E7%BB%95%E8%BF%87/)
 
 在实际应用中，通常是先线程挂起，最后再恢复线程
 

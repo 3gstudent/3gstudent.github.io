@@ -51,7 +51,7 @@ https://github.com/Cybellum/DoubleAgent
 
 关于Application Compatibility Shims在渗透测试中的利用技巧可参照：
 
-https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Application-Compatibility-Shims/
+https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Application-Compatibility-Shims/
 
 
 更多基础概念可参考微软官方文档，地址如下：

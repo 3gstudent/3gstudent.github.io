@@ -6,7 +6,7 @@ title: Zimbra-SOAP-API开发指南2
 ## 0x00 前言
 ---
 
-在上一篇文章[《Zimbra-SOAP-API开发指南》](https://3gstudent.github.io/3gstudent.github.io/Zimbra-SOAP-API%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/)介绍了Zimbra SOAP API的调用方法，开源代码[Zimbra_SOAP_API_Manage](https://github.com/3gstudent/Homework-of-Python/blob/master/Zimbra_SOAP_API_Manage.py)。
+在上一篇文章[《Zimbra-SOAP-API开发指南》](https://3gstudent.github.io/Zimbra-SOAP-API%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/)介绍了Zimbra SOAP API的调用方法，开源代码[Zimbra_SOAP_API_Manage](https://github.com/3gstudent/Homework-of-Python/blob/master/Zimbra_SOAP_API_Manage.py)。
 本文将要在此基础上扩充功能，添加使用管理员权限可以实现的功能。
 
 ## 0x01 简介

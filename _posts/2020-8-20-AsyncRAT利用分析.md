@@ -51,7 +51,7 @@ title: AsyncRAT利用分析
 
 使用Assembly.Load加载C#程序
 
-更多细节可参考之前的文章[《从内存加载.NET程序集(Assembly.Load)的利用分析》](https://3gstudent.github.io/3gstudent.github.io/%E4%BB%8E%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BD.NET%E7%A8%8B%E5%BA%8F%E9%9B%86(Assembly.Load)%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
+更多细节可参考之前的文章[《从内存加载.NET程序集(Assembly.Load)的利用分析》](https://3gstudent.github.io/%E4%BB%8E%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BD.NET%E7%A8%8B%E5%BA%8F%E9%9B%86(Assembly.Load)%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
 
 2. RunPE
 
@@ -81,7 +81,7 @@ RunPE操作将启动以上5个exe文件中的一个，通过ReadProcessMemory、
 
 使用64位的AsyncClient.exe反弹回的Session，使用RunPE操作只能加载64位的exe文件
 
-更多细节可参考之前的文章[《傀儡进程的实现与检测》](https://3gstudent.github.io/3gstudent.github.io/%E5%82%80%E5%84%A1%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%AE%9E%E7%8E%B0%E4%B8%8E%E6%A3%80%E6%B5%8B/)
+更多细节可参考之前的文章[《傀儡进程的实现与检测》](https://3gstudent.github.io/%E5%82%80%E5%84%A1%E8%BF%9B%E7%A8%8B%E7%9A%84%E5%AE%9E%E7%8E%B0%E4%B8%8E%E6%A3%80%E6%B5%8B/)
 
 
 (2)ToDisk
@@ -97,7 +97,7 @@ RunPE操作将启动以上5个exe文件中的一个，通过ReadProcessMemory、
 
 调用Graphics类的CopyFromScreen实现屏幕截图
 
-通过Python实现监控屏幕的细节可参考之前的文章[《Pupy利用分析——Windows平台下的屏幕控制》](https://3gstudent.github.io/3gstudent.github.io/Pupy%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90-Windows%E5%B9%B3%E5%8F%B0%E4%B8%8B%E7%9A%84%E5%B1%8F%E5%B9%95%E6%8E%A7%E5%88%B6/)
+通过Python实现监控屏幕的细节可参考之前的文章[《Pupy利用分析——Windows平台下的屏幕控制》](https://3gstudent.github.io/Pupy%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90-Windows%E5%B9%B3%E5%8F%B0%E4%B8%8B%E7%9A%84%E5%B1%8F%E5%B9%95%E6%8E%A7%E5%88%B6/)
 
 (2)Keylogger
 
@@ -109,7 +109,7 @@ RunPE操作将启动以上5个exe文件中的一个，通过ReadProcessMemory、
 
 获得Firefox和Chrome浏览器中保存的密码
 
-技术细节可参考之前的文章[《渗透技巧——导出Firefox浏览器中保存的密码》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%AF%BC%E5%87%BAFirefox%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81/)和[《渗透技巧——导出Chrome浏览器中保存的密码》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%AF%BC%E5%87%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81/)
+技术细节可参考之前的文章[《渗透技巧——导出Firefox浏览器中保存的密码》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%AF%BC%E5%87%BAFirefox%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81/)和[《渗透技巧——导出Chrome浏览器中保存的密码》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%AF%BC%E5%87%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81/)
 
 (4)File Manager
 
@@ -383,7 +383,7 @@ Process Critica：
 
 将进程设置为保护进程，如果意外关闭了保护进程，那么将导致BSOD
 
-更多细节可参考之前的文章[《结束进程导致BSOD的利用分析》](https://3gstudent.github.io/3gstudent.github.io/%E7%BB%93%E6%9D%9F%E8%BF%9B%E7%A8%8B%E5%AF%BC%E8%87%B4BSOD%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
+更多细节可参考之前的文章[《结束进程导致BSOD的利用分析》](https://3gstudent.github.io/%E7%BB%93%E6%9D%9F%E8%BF%9B%E7%A8%8B%E5%AF%BC%E8%87%B4BSOD%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
 
 Delay：延迟执行的时间
 

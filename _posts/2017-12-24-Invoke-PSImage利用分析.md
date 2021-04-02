@@ -11,9 +11,9 @@ title: Invoke-PSImage利用分析
 
 这是一种隐写(Steganography)技术的应用，我在之前的文章对png的隐写技术做了一些介绍，可供参考：
 
-[《隐写技巧——PNG文件中的LSB隐写》](https://3gstudent.github.io/3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-PNG%E6%96%87%E4%BB%B6%E4%B8%AD%E7%9A%84LSB%E9%9A%90%E5%86%99/)
+[《隐写技巧——PNG文件中的LSB隐写》](https://3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-PNG%E6%96%87%E4%BB%B6%E4%B8%AD%E7%9A%84LSB%E9%9A%90%E5%86%99/)
 
-[《隐写技巧——利用PNG文件格式隐藏Payload》](https://3gstudent.github.io/3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8PNG%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E9%9A%90%E8%97%8FPayload/)
+[《隐写技巧——利用PNG文件格式隐藏Payload》](https://3gstudent.github.io/%E9%9A%90%E5%86%99%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8PNG%E6%96%87%E4%BB%B6%E6%A0%BC%E5%BC%8F%E9%9A%90%E8%97%8FPayload/)
 
 本文将结合自己的一些心得对Invoke-PSImage进行分析，介绍原理，解决测试中遇到的问题，学习脚本中的编程技巧，提出自己的优化思路
 

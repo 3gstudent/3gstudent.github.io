@@ -6,7 +6,7 @@ title: Use CLR to maintain persistence
 ## 0x00 前言
 ---
 
-在之前的文章[《Use AppDomainManager to maintain persistence》](https://3gstudent.github.io/3gstudent.github.io/Use-AppDomainManager-to-maintain-persistence/)介绍了通过AppDomainManager实现的一种被动后门触发机制，演示了如何劫持系统.Net程序powershell_ise.exe，但前提是需要获得管理员权限。
+在之前的文章[《Use AppDomainManager to maintain persistence》](https://3gstudent.github.io/Use-AppDomainManager-to-maintain-persistence/)介绍了通过AppDomainManager实现的一种被动后门触发机制，演示了如何劫持系统.Net程序powershell_ise.exe，但前提是需要获得管理员权限。
 这一次将更进一步，介绍一种无需管理员权限的后门，并能够劫持所有.Net程序。
 
 ## 0x01 简介
@@ -59,7 +59,7 @@ https://raw.githubusercontent.com/3gstudent/test/master/msg.dll
 
 dll开发过程可参考：
 
-https://3gstudent.github.io/3gstudent.github.io/Use-Office-to-maintain-persistence/
+https://3gstudent.github.io/Use-Office-to-maintain-persistence/
 
 可在cmd下实现直接下载，代码如下：
 
@@ -78,7 +78,7 @@ delete是为了清除下载文件的缓存
 
 更多关于使用certutil.exe下载文件的利用细节可参考文章：
 
-[《渗透测试中的certutil.exe》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84certutil.exe/)
+[《渗透测试中的certutil.exe》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84certutil.exe/)
 
 ### 3、操作注册表
 
@@ -260,7 +260,7 @@ http://seclists.org/fulldisclosure/2017/Jul/11
 
 并且，他利用CLR还实现了UAC绕过(这个思路我是后来从clem@clavoillotte的博客学到的)，该方法我也做了研究并写了一篇研究心得，地址如下：
 
-[《Use CLR to bypass UAC》](https://3gstudent.github.io/3gstudent.github.io/Use-CLR-to-bypass-UAC/)
+[《Use CLR to bypass UAC》](https://3gstudent.github.io/Use-CLR-to-bypass-UAC/)
 
 ---
 

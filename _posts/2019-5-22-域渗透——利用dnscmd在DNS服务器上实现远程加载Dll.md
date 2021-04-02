@@ -132,7 +132,7 @@ DnsPluginQuery
 
 这里可以使用域内共享文件夹SYSVOL，默认所有的域用户都能访问
 
-更多细节可参考之前的文章：[《域渗透——利用SYSVOL还原组策略中保存的密码》](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8SYSVOL%E8%BF%98%E5%8E%9F%E7%BB%84%E7%AD%96%E7%95%A5%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81/)
+更多细节可参考之前的文章：[《域渗透——利用SYSVOL还原组策略中保存的密码》](https://3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8SYSVOL%E8%BF%98%E5%8E%9F%E7%BB%84%E7%AD%96%E7%95%A5%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81/)
 
 我的测试域环境名称为test.com，使用的域内共享文件夹路径为：`\\test.com\SYSVOL\test.com\scripts\testdns.dll`
 
@@ -174,7 +174,7 @@ https://github.com/3gstudent/test/blob/master/dnscmd.exe.mui
 
 dnscmd.exe和dnscmd.exe.mui是在我的测试系统(Windows Server 2008 R2x64)中获得的
 
-方法细节可参考之前的文章[《域渗透——DNS记录的获取》](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-DNS%E8%AE%B0%E5%BD%95%E7%9A%84%E8%8E%B7%E5%8F%96/)
+方法细节可参考之前的文章[《域渗透——DNS记录的获取》](https://3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-DNS%E8%AE%B0%E5%BD%95%E7%9A%84%E8%8E%B7%E5%8F%96/)
 
 ### 6、启动dnscmd
 

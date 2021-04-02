@@ -87,7 +87,7 @@ wmic /NAMESPACE:"\\root\subscription" PATH __FilterToConsumerBinding CREATE Filt
 
 **注：**
 
-代码具体含义在《WMI Attacks》、《WMI Backdoor》、《WMI Defense》、[《Study Notes of WMI Persistence using wmic.exe》](https://3gstudent.github.io/3gstudent.github.io/Study-Notes-of-WMI-Persistence-using-wmic.exe/)作过具体介绍，此处略
+代码具体含义在《WMI Attacks》、《WMI Backdoor》、《WMI Defense》、[《Study Notes of WMI Persistence using wmic.exe》](https://3gstudent.github.io/Study-Notes-of-WMI-Persistence-using-wmic.exe/)作过具体介绍，此处略
 
 **3、**查看系统日志
 
@@ -216,7 +216,7 @@ https://github.com/michaellandi/exportstoc
 **测试实例：**
 https://enigma0x3.net/2016/08/15/fileless-uac-bypass-using-eventvwr-exe-and-registry-hijacking/
 
-https://3gstudent.github.io/3gstudent.github.io/Userland-registry-hijacking/
+https://3gstudent.github.io/Userland-registry-hijacking/
 
 **目的：**
 劫持计划任务UserTask，实现开机启动自己的dll，弹框
@@ -346,7 +346,7 @@ Invoke-ScheduledTaskComHandlerUserTask -Command "c:\test\testexport.dll" -Verbos
 
 **注：**
 
-在https://3gstudent.github.io/3gstudent.github.io/Userland-registry-hijacking/中使用的方法弹框后taskhost.exe进程报错，未给出bug的解决方法，本文介绍的方式能够解决这个bug
+在https://3gstudent.github.io/Userland-registry-hijacking/中使用的方法弹框后taskhost.exe进程报错，未给出bug的解决方法，本文介绍的方式能够解决这个bug
 
 ## 0x03 My test of using DiskCleanup on Windows 10 using DiskCleanup
 

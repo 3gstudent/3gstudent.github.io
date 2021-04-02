@@ -7,7 +7,7 @@ title: 配置Additional LSA Protection监控Password Filter DLL
 ## 0x00 前言
 ---
 
-针对文章[《Password Filter DLL在渗透测试中的应用》](https://3gstudent.github.io/3gstudent.github.io/Password-Filter-DLL%E5%9C%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/)中wyzzoo的回复,提醒注意高版本系统上考虑的问题,地址如下:
+针对文章[《Password Filter DLL在渗透测试中的应用》](https://3gstudent.github.io/Password-Filter-DLL%E5%9C%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8/)中wyzzoo的回复,提醒注意高版本系统上考虑的问题,地址如下:
 
 https://github.com/3gstudent/feedback/issues/13#issuecomment-371694931
 
@@ -43,7 +43,7 @@ Windows8.1系统开始,为LSA提供了额外的保护,以防止由未受保护�
 
 https://docs.microsoft.com/zh-cn/windows-hardware/drivers/install/whql-release-signature
 
-关于catalog签名有过文章介绍:[《CAT文件数字签名使用技巧》](https://3gstudent.github.io/3gstudent.github.io/CAT%E6%96%87%E4%BB%B6%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/)
+关于catalog签名有过文章介绍:[《CAT文件数字签名使用技巧》](https://3gstudent.github.io/CAT%E6%96%87%E4%BB%B6%E6%95%B0%E5%AD%97%E7%AD%BE%E5%90%8D%E4%BD%BF%E7%94%A8%E6%8A%80%E5%B7%A7/)
 
 
 测试系统： Win8.1 x64
@@ -114,7 +114,7 @@ wevtutil cl "Microsoft-Windows-CodeIntegrity/Operational"
 ## 0x04 补充一个Password Filter DLL的利用思路——利用Long UNC文件名欺骗实现DLL的“隐藏”
 ---
 
-具体隐藏细节可参考文章[《Catalog签名伪造——Long UNC文件名欺骗》](https://3gstudent.github.io/3gstudent.github.io/Catalog%E7%AD%BE%E5%90%8D%E4%BC%AA%E9%80%A0-Long-UNC%E6%96%87%E4%BB%B6%E5%90%8D%E6%AC%BA%E9%AA%97/)
+具体隐藏细节可参考文章[《Catalog签名伪造——Long UNC文件名欺骗》](https://3gstudent.github.io/Catalog%E7%AD%BE%E5%90%8D%E4%BC%AA%E9%80%A0-Long-UNC%E6%96%87%E4%BB%B6%E5%90%8D%E6%AC%BA%E9%AA%97/)
 
 ### 1、将dll命名为Long UNC文件名格式，保存在`%windir%\system32\`下
 

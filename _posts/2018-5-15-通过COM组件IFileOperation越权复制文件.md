@@ -7,7 +7,7 @@ title: 通过COM组件IFileOperation越权复制文件
 ## 0x00 前言
 ---
 
-在之前的文章[《Empire中的Invoke-WScriptBypassUAC利用分析》](https://3gstudent.github.io/3gstudent.github.io/Empire%E4%B8%AD%E7%9A%84Invoke-WScriptBypassUAC%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)曾介绍过一个越权复制文件的方法，在普通用户的权限下，利用wusa能够将cab文件释放至管理员权限的文件夹，进一步可以实现文件名劫持和UAC绕过。
+在之前的文章[《Empire中的Invoke-WScriptBypassUAC利用分析》](https://3gstudent.github.io/Empire%E4%B8%AD%E7%9A%84Invoke-WScriptBypassUAC%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)曾介绍过一个越权复制文件的方法，在普通用户的权限下，利用wusa能够将cab文件释放至管理员权限的文件夹，进一步可以实现文件名劫持和UAC绕过。
 
 但该功能在Win10下被取消，那么有没有更为通用的方法呢？
 
@@ -196,7 +196,7 @@ http://www.exploit-monday.com/2012/12/in-memory-dll-loading.html
 
 **注：**
 
-两种方式的比较在之前的文章[《利用Assembly Load & LoadFile绕过Applocker的分析总结》](https://3gstudent.github.io/3gstudent.github.io/%E5%88%A9%E7%94%A8Assembly-Load-&-LoadFile%E7%BB%95%E8%BF%87Applocker%E7%9A%84%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/)有过介绍
+两种方式的比较在之前的文章[《利用Assembly Load & LoadFile绕过Applocker的分析总结》](https://3gstudent.github.io/%E5%88%A9%E7%94%A8Assembly-Load-&-LoadFile%E7%BB%95%E8%BF%87Applocker%E7%9A%84%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/)有过介绍
 
 方法3完整的实现代码可参考：
 

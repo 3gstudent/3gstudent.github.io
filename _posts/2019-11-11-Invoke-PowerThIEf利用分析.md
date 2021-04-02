@@ -207,7 +207,7 @@ At C:\test\Invoke-PowerThIEf.ps1:151 char:41
 
 ### 1.安装Microsoft .NET Framework 4.5
 
-命令行下的安装方法可参考之前的文章[《渗透基础——命令行下安装Microsoft .NET Framework》](https://3gstudent.github.io/3gstudent.github.io/渗透基础——命令行下安装Microsoft_.NET_Framework/)
+命令行下的安装方法可参考之前的文章[《渗透基础——命令行下安装Microsoft .NET Framework》](https://3gstudent.github.io/渗透基础——命令行下安装Microsoft_.NET_Framework/)
 
 实现自动安装的代码可参考：
 

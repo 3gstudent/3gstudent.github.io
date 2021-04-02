@@ -248,7 +248,7 @@ CN和DNS.1都需要设定为域名(测试域名为test.com)
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout test.com.key -out test.com.crt -config req.cnf -sha256
 ```
 
-更多参数的细节可参考之前的文章[《CIA Hive Beacon Infrastructure复现2——使用Apache mod_rewrite实现https流量分发》](https://3gstudent.github.io/3gstudent.github.io/CIA-Hive-Beacon-Infrastructure%E5%A4%8D%E7%8E%B02-%E4%BD%BF%E7%94%A8Apache-mod_rewrite%E5%AE%9E%E7%8E%B0https%E6%B5%81%E9%87%8F%E5%88%86%E5%8F%91/)
+更多参数的细节可参考之前的文章[《CIA Hive Beacon Infrastructure复现2——使用Apache mod_rewrite实现https流量分发》](https://3gstudent.github.io/CIA-Hive-Beacon-Infrastructure%E5%A4%8D%E7%8E%B02-%E4%BD%BF%E7%94%A8Apache-mod_rewrite%E5%AE%9E%E7%8E%B0https%E6%B5%81%E9%87%8F%E5%88%86%E5%8F%91/)
 
 ## 0x05 补充2： php实现Basic Authentication
 ---

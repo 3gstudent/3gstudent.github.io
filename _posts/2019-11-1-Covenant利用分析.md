@@ -128,7 +128,7 @@ C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe GruntStager.xml
 System.Reflection.Assembly.Load(oms.ToArray()).EntryPoint.Invoke(0, new object[] { new string[]{ } });
 ```
 
-关于msbuild的用法可参考之前的文章[《Use MSBuild To Do More》](https://3gstudent.github.io/3gstudent.github.io/Use-MSBuild-To-Do-More/)
+关于msbuild的用法可参考之前的文章[《Use MSBuild To Do More》](https://3gstudent.github.io/Use-MSBuild-To-Do-More/)
 
 #### (4)InstallUtil
 
@@ -179,7 +179,7 @@ Covenant在此处提示这个方法也许无法在Windows 10和Windows Server 20
 var o = delegate.DynamicInvoke(array.ToArray()).CreateInstance('Grunt.GruntStager');
 ```
 
-关于Wmic的用法可参考之前的文章[《利用wmic调用xsl文件的分析与利用》](https://3gstudent.github.io/3gstudent.github.io/%E5%88%A9%E7%94%A8wmic%E8%B0%83%E7%94%A8xsl%E6%96%87%E4%BB%B6%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E5%88%A9%E7%94%A8/)
+关于Wmic的用法可参考之前的文章[《利用wmic调用xsl文件的分析与利用》](https://3gstudent.github.io/%E5%88%A9%E7%94%A8wmic%E8%B0%83%E7%94%A8xsl%E6%96%87%E4%BB%B6%E7%9A%84%E5%88%86%E6%9E%90%E4%B8%8E%E5%88%A9%E7%94%A8/)
 
 #### (6)Regsvr32
 
@@ -211,7 +211,7 @@ Covenant在此处提示这个方法也许无法在Windows 10和Windows Server 20
 
 将.NET程序集保存在数组，通过DotNetToJScript的方法在内存进行加载
 
-关于Mshta的用法可参考之前的文章[《渗透技巧——从github下载文件的多种方法》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BB%8Egithub%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E6%B3%95/)
+关于Mshta的用法可参考之前的文章[《渗透技巧——从github下载文件的多种方法》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BB%8Egithub%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E6%B3%95/)
 
 #### (8)Cscript
 

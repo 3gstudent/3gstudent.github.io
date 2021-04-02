@@ -10,7 +10,7 @@ title: 渗透技巧——Pass the Hash with Exchange Web Service
 在之前的文章《渗透技巧——Pass the Hash with Remote Desktop Protocol》介绍了使用hash登录RDP的方法，本文将要继续介绍使用hash登录ews的方法。
 
 
-我们知道，通过`mimikatz的over pass the hash`和`ews的使用当前凭据登录`能够实现使用hash登录ews，相关细节可参考[《Exchange Web Service(EWS)开发指南》](https://3gstudent.github.io/3gstudent.github.io/Exchange-Web-Service(EWS)%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/)
+我们知道，通过`mimikatz的over pass the hash`和`ews的使用当前凭据登录`能够实现使用hash登录ews，相关细节可参考[《Exchange Web Service(EWS)开发指南》](https://3gstudent.github.io/Exchange-Web-Service(EWS)%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/)
 
 但缺点是需要获得管理员权限并对lsass进程进行操作，无法同时对多个用户验证。
 
@@ -133,7 +133,7 @@ reg add hklm\SYSTEM\CurrentControlSet\Control\SecurityProviders\SCHANNEL\KeyExch
 
 可以看到这里的验证过程使用了NTLM Over HTTP Protocol
 
-NTLM Over HTTP Protocol的细节可参考之前的文章[《渗透技巧——通过HTTP协议获得Net-NTLM hash》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E9%80%9A%E8%BF%87HTTP%E5%8D%8F%E8%AE%AE%E8%8E%B7%E5%BE%97Net-NTLM-hash/)
+NTLM Over HTTP Protocol的细节可参考之前的文章[《渗透技巧——通过HTTP协议获得Net-NTLM hash》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E9%80%9A%E8%BF%87HTTP%E5%8D%8F%E8%AE%AE%E8%8E%B7%E5%BE%97Net-NTLM-hash/)
 
 认证流程：
 

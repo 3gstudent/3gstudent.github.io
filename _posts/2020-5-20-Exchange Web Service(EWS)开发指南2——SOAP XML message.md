@@ -7,7 +7,7 @@ title: Exchange Web Service(EWS)开发指南2——SOAP XML message
 ## 0x00 前言
 ---
 
-在之前的文章[《Exchange Web Service(EWS)开发指南》](https://3gstudent.github.io/3gstudent.github.io/Exchange-Web-Service(EWS)%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/)开源了工具[ewsManage](https://github.com/3gstudent/ewsManage)，实现了对Exchange资源的访问。
+在之前的文章[《Exchange Web Service(EWS)开发指南》](https://3gstudent.github.io/Exchange-Web-Service(EWS)%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97/)开源了工具[ewsManage](https://github.com/3gstudent/ewsManage)，实现了对Exchange资源的访问。
 
 本文将要更近一步，通过SOAP XML message实现利用hash对Exchange资源的访问。
 
@@ -24,7 +24,7 @@ title: Exchange Web Service(EWS)开发指南2——SOAP XML message
 ## 0x02 利用hash访问Exchange资源的方法
 ---
 
-在之前的文章[《渗透技巧——Pass the Hash with Exchange Web Service》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Pass-the-Hash-with-Exchange-Web-Service/)介绍了使用hash登录ews的方法
+在之前的文章[《渗透技巧——Pass the Hash with Exchange Web Service》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Pass-the-Hash-with-Exchange-Web-Service/)介绍了使用hash登录ews的方法
 
 本文将要基于之前的研究，介绍登录ews以后访问Exchange资源的方法，所以在程序实现上会继续选择Python，使用EWS SOAP XML message访问Exchange的资源
 

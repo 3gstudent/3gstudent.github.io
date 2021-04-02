@@ -204,7 +204,7 @@ NTSTATUS WINAPI HookedNtQuerySystemInformation(
 
 这段代码同SubTee之前开源的代码AppInitGlobalHooks-Mimikatz基本相同
 
-我在之前的文章[《利用globalAPIhooks在Win7系统下隐藏进程》](https://3gstudent.github.io/3gstudent.github.io/%E5%88%A9%E7%94%A8globalAPIhooks%E5%9C%A8Win7%E7%B3%BB%E7%BB%9F%E4%B8%8B%E9%9A%90%E8%97%8F%E8%BF%9B%E7%A8%8B/)有过介绍
+我在之前的文章[《利用globalAPIhooks在Win7系统下隐藏进程》](https://3gstudent.github.io/%E5%88%A9%E7%94%A8globalAPIhooks%E5%9C%A8Win7%E7%B3%BB%E7%BB%9F%E4%B8%8B%E9%9A%90%E8%97%8F%E8%BF%9B%E7%A8%8B/)有过介绍
 
 SubTee的Github目前无法访问，但我当时fork了他的代码，地址如下：
 

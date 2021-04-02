@@ -9,7 +9,7 @@ title: 渗透技巧——通过CredSSP导出用户的明文口令
 
 在渗透测试中，为了获得Windows系统中的用户口令，通常会选择读取lsass进程的内存。这种方法不仅需要获得系统的管理员权限，而且在更多情况下需要绕过系统对lsass进程的保护。
 
-我在之前的文章[《Windows下的密码hash——Net-NTLMv1介绍》](https://3gstudent.github.io/3gstudent.github.io/Windows%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81hash-Net-NTLMv1%E4%BB%8B%E7%BB%8D/)曾介绍过使用[InternalMonologue](https://github.com/eladshamir/Internal-Monologue)获得当前用户凭据的方法(通过SSPI调用对NTLM身份验证包(MSV1_0)的本地过程调用，以计算出NetNTLM响应)，不需要对lsass进程操作。
+我在之前的文章[《Windows下的密码hash——Net-NTLMv1介绍》](https://3gstudent.github.io/Windows%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81hash-Net-NTLMv1%E4%BB%8B%E7%BB%8D/)曾介绍过使用[InternalMonologue](https://github.com/eladshamir/Internal-Monologue)获得当前用户凭据的方法(通过SSPI调用对NTLM身份验证包(MSV1_0)的本地过程调用，以计算出NetNTLM响应)，不需要对lsass进程操作。
 
 本文将要介绍另外一种获得当前用户口令的方法，同样不需要对lsass进程操作。
 
@@ -265,7 +265,7 @@ kekeo的`tsssp::server`功能需要安装[OSS ASN.1/C](http://www.oss.com/asn1/p
 
 使用其他用户的token启动kekeo.exe或者tsssp_client.exe即可
 
-token的利用方法可参考[《渗透技巧——Token窃取与利用》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Token%E7%AA%83%E5%8F%96%E4%B8%8E%E5%88%A9%E7%94%A8/)
+token的利用方法可参考[《渗透技巧——Token窃取与利用》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Token%E7%AA%83%E5%8F%96%E4%B8%8E%E5%88%A9%E7%94%A8/)
 
 ## 0x05 防御检测
 ---

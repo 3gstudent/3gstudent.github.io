@@ -79,7 +79,7 @@ $bytes = [System.IO.File]::ReadAllBytes("ConsoleApplication1.exe")
 
 **注：**
 
-可参考之前的文章[《利用Assembly Load & LoadFile绕过Applocker的分析总结》](https://3gstudent.github.io/3gstudent.github.io/%E5%88%A9%E7%94%A8Assembly-Load-&-LoadFile%E7%BB%95%E8%BF%87Applocker%E7%9A%84%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/)
+可参考之前的文章[《利用Assembly Load & LoadFile绕过Applocker的分析总结》](https://3gstudent.github.io/%E5%88%A9%E7%94%A8Assembly-Load-&-LoadFile%E7%BB%95%E8%BF%87Applocker%E7%9A%84%E5%88%86%E6%9E%90%E6%80%BB%E7%BB%93/)
 
 #### (2)C#实现Assembly.Load
 
@@ -93,7 +93,7 @@ https://github.com/anthemtotheego/SharpCradle
 
 **注：**
 
-可参考之前的文章[《从内存加载.NET程序集(execute-assembly)的利用分析》](https://3gstudent.github.io/3gstudent.github.io/%E4%BB%8E%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BD.NET%E7%A8%8B%E5%BA%8F%E9%9B%86(execute-assembly)%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
+可参考之前的文章[《从内存加载.NET程序集(execute-assembly)的利用分析》](https://3gstudent.github.io/%E4%BB%8E%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BD.NET%E7%A8%8B%E5%BA%8F%E9%9B%86(execute-assembly)%E7%9A%84%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)
 
 整个过程在内存执行，不写入文件系统(此时注入dll需要使用Dll反射)
 

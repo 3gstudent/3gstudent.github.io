@@ -75,7 +75,7 @@ msiexec /q /i test.msi
 
 执行后会在%TEMP%下生成MSI的log文件
 
-更多关于msiexec的介绍可参考之前的文章[《渗透测试中的msiexec》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84msiexec/)
+更多关于msiexec的介绍可参考之前的文章[《渗透测试中的msiexec》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84msiexec/)
 
 ## 0x03 开源方法测试
 ---
@@ -235,7 +235,7 @@ ProcessHacker以System权限执行，利用成功，如下图
 
 此时能够对注册表进行写操作，可以创建对应的注册表项，再利用AlwaysInstallElevated提权
 
-利用SeRestorePrivilege和SeTakeOwnershipPrivilege写注册表可参考之前的文章:[《渗透技巧——Windows九种权限的利用》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B9%9D%E7%A7%8D%E6%9D%83%E9%99%90%E7%9A%84%E5%88%A9%E7%94%A8/)
+利用SeRestorePrivilege和SeTakeOwnershipPrivilege写注册表可参考之前的文章:[《渗透技巧——Windows九种权限的利用》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B9%9D%E7%A7%8D%E6%9D%83%E9%99%90%E7%9A%84%E5%88%A9%E7%94%A8/)
 
 ### 扩展思路2：
 
@@ -246,7 +246,7 @@ ProcessHacker以System权限执行，利用成功，如下图
 - HKCU\SOFTWARE\Policies\Microsoft\Windows\Installer
 - HKLM\SOFTWARE\Policies\Microsoft\Windows\Installer
 
-对注册表项添加ACL的方法可参考之前的文章：[《渗透技巧——Windows下的Access Control List》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%8B%E7%9A%84Access-Control-List/)
+对注册表项添加ACL的方法可参考之前的文章：[《渗透技巧——Windows下的Access Control List》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E4%B8%8B%E7%9A%84Access-Control-List/)
 
 ### 扩展思路3：
 

@@ -7,7 +7,7 @@ title: Use xwizard.exe to load dll
 ## 0x00 前言
 ---
 
-在之前的[文章](https://3gstudent.github.io/3gstudent.github.io/Use-Excel.Application-object's-RegisterXLL()-method-to-load-dll/)介绍了利用Excel.Application object's RegisterXLL()加载dll的技巧。本文继续，介绍最近学习到的一种更为通用的方法——利用xwizard.exe加载dll。
+在之前的[文章](https://3gstudent.github.io/Use-Excel.Application-object's-RegisterXLL()-method-to-load-dll/)介绍了利用Excel.Application object's RegisterXLL()加载dll的技巧。本文继续，介绍最近学习到的一种更为通用的方法——利用xwizard.exe加载dll。
 该方法最大的特点是xwizard.exe自带微软签名，在某种程度上说，能够绕过应用程序白名单的拦截。
 
 参考链接：
@@ -101,7 +101,7 @@ xwizard.exe的同级目录存在一个特别的文件xwizards.dll
 
 使用vc 6.0，新建dll工程，在`case DLL_PROCESS_ATTACH`下添加弹框代码
 
-过程及优化方法不再赘述，可参考文章[《Use Office to maintain persistence》](https://3gstudent.github.io/3gstudent.github.io/Use-Office-to-maintain-persistence/)
+过程及优化方法不再赘述，可参考文章[《Use Office to maintain persistence》](https://3gstudent.github.io/Use-Office-to-maintain-persistence/)
 
 编译好的dll下载地址如下:
 

@@ -7,7 +7,7 @@ title: 域渗透——DNS记录与MachineAccount
 ## 0x00 前言
 ---
 
-在之前的文章[《域渗透——DNS记录的获取》](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-DNS%E8%AE%B0%E5%BD%95%E7%9A%84%E8%8E%B7%E5%8F%96/)和[《域渗透——普通用户权限获得DNS记录》](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E6%99%AE%E9%80%9A%E7%94%A8%E6%88%B7%E6%9D%83%E9%99%90%E8%8E%B7%E5%BE%97DNS%E8%AE%B0%E5%BD%95/)介绍了在域环境下获得DNS记录的方法，有助于我们快速了解域内的网络架构。
+在之前的文章[《域渗透——DNS记录的获取》](https://3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-DNS%E8%AE%B0%E5%BD%95%E7%9A%84%E8%8E%B7%E5%8F%96/)和[《域渗透——普通用户权限获得DNS记录》](https://3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E6%99%AE%E9%80%9A%E7%94%A8%E6%88%B7%E6%9D%83%E9%99%90%E8%8E%B7%E5%BE%97DNS%E8%AE%B0%E5%BD%95/)介绍了在域环境下获得DNS记录的方法，有助于我们快速了解域内的网络架构。
 
 但是，DNS记录只能作为辅助判断，DNS记录、DNS记录中对应的MachineAccount(机器帐户)和实际的计算机三者之间不存在对应关系
 

@@ -12,7 +12,7 @@ title: 渗透技巧——Pass the Hash with Remote Desktop(Restricted Admin mode
 
 关于Pass the hash的利用可参考之前的文章：
 
-[《域渗透——Pass The Hash的实现》](https://3gstudent.github.io/3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-Pass-The-Hash%E7%9A%84%E5%AE%9E%E7%8E%B0/)
+[《域渗透——Pass The Hash的实现》](https://3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-Pass-The-Hash%E7%9A%84%E5%AE%9E%E7%8E%B0/)
 
 ## 0x01 简介
 ---

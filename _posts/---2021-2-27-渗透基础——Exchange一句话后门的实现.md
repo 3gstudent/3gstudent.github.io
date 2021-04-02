@@ -7,7 +7,7 @@ title: 渗透基础——Exchange一句话后门的实现
 ## 0x00 前言
 ---
 
-在之前的文章[《对APT34泄露工具的分析-HighShell和HyperShell》](https://3gstudent.github.io/3gstudent.github.io/%E5%AF%B9APT34%E6%B3%84%E9%9C%B2%E5%B7%A5%E5%85%B7%E7%9A%84%E5%88%86%E6%9E%90-HighShell%E5%92%8CHyperShell/)分析了HyperShell中的ExpiredPassword.aspx，通过向Exchange登录页面下的ExpiredPassword.aspx添加代码实现后门功能。
+在之前的文章[《对APT34泄露工具的分析-HighShell和HyperShell》](https://3gstudent.github.io/%E5%AF%B9APT34%E6%B3%84%E9%9C%B2%E5%B7%A5%E5%85%B7%E7%9A%84%E5%88%86%E6%9E%90-HighShell%E5%92%8CHyperShell/)分析了HyperShell中的ExpiredPassword.aspx，通过向Exchange登录页面下的ExpiredPassword.aspx添加代码实现后门功能。
 
 本文将要沿着这个思路，在技术角度介绍另外两种实现方法，开源测试代码，给出防御建议。
 

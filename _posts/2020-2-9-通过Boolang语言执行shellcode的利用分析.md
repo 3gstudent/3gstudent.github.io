@@ -7,7 +7,7 @@ title: 通过Boolang语言执行shellcode的利用分析
 ## 0x00 前言
 ---
 
-在之前的文章[《SILENTTRINITY利用分析》](https://3gstudent.github.io/3gstudent.github.io/SILENTTRINITY%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)学习了C#利用IronPython引擎从内存加载payload的方法，我在byt3bl33d3r的GitHub上又看到了利用Boolang语言执行shellcode的代码，于是对这项技术做了研究。
+在之前的文章[《SILENTTRINITY利用分析》](https://3gstudent.github.io/SILENTTRINITY%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90/)学习了C#利用IronPython引擎从内存加载payload的方法，我在byt3bl33d3r的GitHub上又看到了利用Boolang语言执行shellcode的代码，于是对这项技术做了研究。
 
 本文将要介绍Boolang语言的特点和用法，分析通过Boolang语言执行shellcode的优点，给出防御检测的建议。
 

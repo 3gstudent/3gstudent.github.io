@@ -7,7 +7,7 @@ title: 渗透技巧——Pass the Hash with Remote Desktop Protocol
 ## 0x00 前言
 ---
 
-在之前的文章[《渗透技巧——Pass the Hash with Remote Desktop(Restricted Admin mode)》](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Pass-the-Hash-with-Remote-Desktop(Restricted-Admin-mode)/)介绍了特定条件下(Server需要开启Restricted Admin mode，Client需要支持Restricted Admin mode)Pass the Hash with Remote Desktop的方法，本文将要介绍更为通用的方法（通过NTLM hash登录RDP），分析原理，开源代码，记录细节。
+在之前的文章[《渗透技巧——Pass the Hash with Remote Desktop(Restricted Admin mode)》](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Pass-the-Hash-with-Remote-Desktop(Restricted-Admin-mode)/)介绍了特定条件下(Server需要开启Restricted Admin mode，Client需要支持Restricted Admin mode)Pass the Hash with Remote Desktop的方法，本文将要介绍更为通用的方法（通过NTLM hash登录RDP），分析原理，开源代码，记录细节。
 
 ## 0x01 简介
 ---
@@ -154,7 +154,7 @@ private static byte[] nTOWFv2(string domain, string username, string password)
 
 对字符串`7400650073007400310032003300`作MD4加密，结果为`c5a237b7e9d8e708d8436b6148a25fa1`
 
-更多细节可参考之前的文章[《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》](https://3gstudent.github.io/3gstudent.github.io/Windows%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81hash-NTLM-hash%E5%92%8CNet-NTLM-hash%E4%BB%8B%E7%BB%8D/)
+更多细节可参考之前的文章[《Windows下的密码hash——NTLM hash和Net-NTLM hash介绍》](https://3gstudent.github.io/Windows%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81hash-NTLM-hash%E5%92%8CNet-NTLM-hash%E4%BB%8B%E7%BB%8D/)
 
 这里我们可以将`nTOWFv1(password)`的结果输出，验证NTLM hash的生成方法是否准确，修改后的代码如下：
 

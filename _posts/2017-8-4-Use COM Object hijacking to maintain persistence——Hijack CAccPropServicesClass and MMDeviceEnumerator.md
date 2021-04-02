@@ -7,7 +7,7 @@ title: Use COM Object hijacking to maintain persistence——Hijack CAccPropServ
 ## 0x00 前言
 ---
 
-在之前的文章[《Use CLR to maintain persistence》](https://3gstudent.github.io/3gstudent.github.io/Use-msdtc-to-maintain-persistence/)介绍了通过CLR劫持所有.Net程序的方法，无需管理员权限，可用作后门。美中不足的是通过WMI添加环境变量需要重启系统。
+在之前的文章[《Use CLR to maintain persistence》](https://3gstudent.github.io/Use-msdtc-to-maintain-persistence/)介绍了通过CLR劫持所有.Net程序的方法，无需管理员权限，可用作后门。美中不足的是通过WMI添加环境变量需要重启系统。
 
 本文将继续介绍另一种后门的利用方法，原理类似，但优点是不需要重启系统，同样也不需要管理员权限。
 
@@ -124,7 +124,7 @@ BOOL APIENTRY DllMain( HANDLE hModule,
 }
 ```
 
-优化方法参照：https://3gstudent.github.io/3gstudent.github.io/Use-Office-to-maintain-persistence/
+优化方法参照：https://3gstudent.github.io/Use-Office-to-maintain-persistence/
 
 编译后大小3k，如果多次加载该dll，会因为互斥量导致只加载一次，也就是说只启动一次calc.exe
 
@@ -260,7 +260,7 @@ else
 
 不同系统释放不同文件
 
-释放文件依旧使用base64，可参考文章：https://3gstudent.github.io/3gstudent.github.io/Use-Office-to-maintain-persistence/
+释放文件依旧使用base64，可参考文章：https://3gstudent.github.io/Use-Office-to-maintain-persistence/
 
 **4、创建注册表**
 
