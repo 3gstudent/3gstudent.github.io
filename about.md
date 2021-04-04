@@ -12,8 +12,6 @@ More to learn
 
 Drops:    三好学生
 
-Twitter:  [3gstudent](https://twitter.com/3gstudent)
-
 Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
