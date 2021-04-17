@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(229/237)
+### Recent Posts(229/239)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -120,6 +120,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [Exchange Web Service(EWS)开发指南2——SOAP XML message](https://3gstudent.github.io/Exchange-Web-Service(EWS)%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%972-SOAP-XML-message)
+ 
+- 
+ Exchange Web Service(EWS)开发指南3——SOAP XML Parser
  
 - 
  [GadgetToJScript利用分析](https://3gstudent.github.io/GadgetToJScript%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
@@ -623,6 +626,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透技巧——获取Windows系统下DPAPI中的MasterKey](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E8%8E%B7%E5%8F%96Windows%E7%B3%BB%E7%BB%9F%E4%B8%8BDPAPI%E4%B8%AD%E7%9A%84MasterKey)
  
 - 
+ [渗透技巧——快捷方式文件的参数隐藏技巧](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F%E6%96%87%E4%BB%B6%E7%9A%84%E5%8F%82%E6%95%B0%E9%9A%90%E8%97%8F%E6%8A%80%E5%B7%A7) 
+ 
+- 
  [渗透技巧——离线导出Chrome浏览器中保存的密码](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E7%A6%BB%E7%BA%BF%E5%AF%BC%E5%87%BAChrome%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%AD%E4%BF%9D%E5%AD%98%E7%9A%84%E5%AF%86%E7%A0%81)
  
 - 
@@ -638,8 +644,8 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透技巧——利用虚拟磁盘实现的“无文件”](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8%E8%99%9A%E6%8B%9F%E7%A3%81%E7%9B%98%E5%AE%9E%E7%8E%B0%E7%9A%84-%E6%97%A0%E6%96%87%E4%BB%B6)
  
 - 
- [渗透技巧——快捷方式文件的参数隐藏技巧](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%BF%AB%E6%8D%B7%E6%96%B9%E5%BC%8F%E6%96%87%E4%BB%B6%E7%9A%84%E5%8F%82%E6%95%B0%E9%9A%90%E8%97%8F%E6%8A%80%E5%B7%A7)
-
+ 渗透技巧——利用虚拟文件隐藏ASP.NET Webshell
+ 
 - 
  [渗透技巧——利用netsh抓取连接文件服务器的NTLMv2 Hash](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E5%88%A9%E7%94%A8netsh%E6%8A%93%E5%8F%96%E8%BF%9E%E6%8E%A5%E6%96%87%E4%BB%B6%E6%9C%8D%E5%8A%A1%E5%99%A8%E7%9A%84NTLMv2-Hash)
  
