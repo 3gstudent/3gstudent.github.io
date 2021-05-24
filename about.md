@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(231/239)
+### Recent Posts(231/240)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -462,6 +462,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透基础——Exchange Autodiscover的使用](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-Exchange-Autodiscover%E7%9A%84%E4%BD%BF%E7%94%A8)
+ 
+- 
+ 渗透基础——Exchange一句话后门的扩展 
  
 - 
  [渗透基础——Exchange一句话后门的实现](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-Exchange%E4%B8%80%E5%8F%A5%E8%AF%9D%E5%90%8E%E9%97%A8%E7%9A%84%E5%AE%9E%E7%8E%B0)
