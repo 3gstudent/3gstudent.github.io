@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(233/240)
+### Recent Posts(234/240)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -350,7 +350,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Zimbra SOAP API开发指南](https://3gstudent.github.io/Zimbra-SOAP-API%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97)
 
 - 
- Zimbra-SOAP-API开发指南2
+ [Zimbra-SOAP-API开发指南2](https://3gstudent.github.io/Zimbra-SOAP-API%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%972)
  
  - 
  [Zimbra反序列化漏洞(CVE-2019-6980)利用测试](https://3gstudent.github.io/Zimbra%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E(CVE-2019-6980)%E5%88%A9%E7%94%A8%E6%B5%8B%E8%AF%95)
