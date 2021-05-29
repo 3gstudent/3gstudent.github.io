@@ -351,7 +351,7 @@ https://github.com/3gstudent/Homework-of-Python/blob/master/eacManage.py
 ## 0x05 小结 
 ---
 
-本文开源了操作EAC的实现代码[eacManage](https://github.com/3gstudent/Homework-of-Python/blob/master/eacManage.py)，记录开发细节，便于后续的二次开发，可应用到多个漏洞(如CVE-2020-16875，CVE-2021-26855，CVE-2021-27065)
+本文开源了操作EAC的实现代码[eacManage](https://github.com/3gstudent/Homework-of-Python/blob/master/eacManage.py)，记录开发细节，便于后续的二次开发，可应用到多个漏洞(如CVE-2020-16875，CVE-2021-24085，CVE-2021-26855，CVE-2021-27065)
 
 
 
