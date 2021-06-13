@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(241/247)
+### Recent Posts(241/250)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -294,6 +294,15 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  [Userland registry hijacking](https://3gstudent.github.io/Userland-registry-hijacking) 
+
+- 
+ vSphere开发指南1——vSphere Automation API
+ 
+- 
+ vSphere开发指南2——vSphere Web Services API
+ 
+- 
+ vSphere开发指南3——VMware PowerCLI
 
 - 
  [War3地图“漏洞”分析介绍](https://3gstudent.github.io/War3%E5%9C%B0%E5%9B%BE-%E6%BC%8F%E6%B4%9E-%E5%88%86%E6%9E%90%E4%BB%8B%E7%BB%8D)
