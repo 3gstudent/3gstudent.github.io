@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(244/251)
+### Recent Posts(244/253)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -216,6 +216,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [SILENTTRINITY利用分析](https://3gstudent.github.io/SILENTTRINITY%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
+ 
+- 
+ SolarWinds Orion开发指南
  
 - 
  [Study Notes of using dnx.exe / rcsi.exe to bypass Decvice Guard UMCI](https://3gstudent.github.io/Study-Notes-of-using-dnx.exe-&-rcsi.exe-to-bypass-Decvice-Guard-UMCI)
@@ -717,6 +720,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透技巧——通过SAM数据库获得本地用户hash](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E9%80%9A%E8%BF%87SAM%E6%95%B0%E6%8D%AE%E5%BA%93%E8%8E%B7%E5%BE%97%E6%9C%AC%E5%9C%B0%E7%94%A8%E6%88%B7hash)
+ 
+- 
+ 渗透技巧——通过命令行开启Windows系统的匿名访问共享
  
 - 
  [渗透技巧——Windows系统的文件恢复与删除](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows%E7%B3%BB%E7%BB%9F%E7%9A%84%E6%96%87%E4%BB%B6%E6%81%A2%E5%A4%8D%E4%B8%8E%E5%88%A0%E9%99%A4)
