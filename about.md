@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(251/257)
+### Recent Posts(251/261)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -102,6 +102,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [Cobalt Strike的blockdlls利用分析](https://3gstudent.github.io/Cobalt_Strike%E7%9A%84blockdlls%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
+ 
+- 
+ Confluence利用指南
  
 - 
  [Covenant利用分析](https://3gstudent.github.io/Covenant%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
@@ -198,12 +201,21 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [ProcessHider利用分析](https://3gstudent.github.io/ProcessHider%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
+
+- 
+ ProxyOracle利用分析1——CVE-2021-31195
+ 
+- 
+ ProxyOracle利用分析2——CVE-2021-31196
  
 - 
  ProxyShell利用分析1——CVE-2021-34473
  
 - 
  ProxyShell利用分析2——CVE-2021-34523
+ 
+- 
+ ProxyShell利用分析3——添加用户和文件写入 
  
 - 
  [Pupy利用分析——Windows平台下的功能](https://3gstudent.github.io/Pupy%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90-Windows%E5%B9%B3%E5%8F%B0%E4%B8%8B%E7%9A%84%E5%8A%9F%E8%83%BD)
