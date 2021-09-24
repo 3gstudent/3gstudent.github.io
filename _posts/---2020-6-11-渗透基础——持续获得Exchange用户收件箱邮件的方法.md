@@ -19,6 +19,7 @@ title: 渗透基础——持续获得Exchange用户收件箱邮件的方法
 - 添加转发规则持续获得Exchange用户收件箱邮件的方法
 - 添加访问权限持续获得Exchange用户收件箱邮件的方法
 - 添加邮件功能持续获得Exchange用户收件箱邮件的方法
+- 添加用户权限持续获得Exchange用户邮件的方法
 - 开源代码
 - 防御检测
 
@@ -575,7 +576,40 @@ Set-Mailbox -Identity "test1" -ForwardingAddress "test2" -DeliverToMailboxAndFor
 
 如果是将邮件转发至未经验证的外部电子邮件地址，需要将`ForwardingAddress`替换为`ForwardingSmtpAddress`
 
-## 0x05 开源代码
+## 0x05 添加用户权限持续获得Exchange用户邮件的方法
+---
+
+参考资料：
+
+https://docs.microsoft.com/en-us/powershell/module/exchange/add-mailboxpermission?view=exchange-ps
+
+
+添加将用户test1对用户test2邮箱完全访问权限的powershell命令如下：
+
+```
+Add-MailboxPermission -Identity "test2" -User "test1" -AccessRights FullAccess -InheritanceType All
+```
+
+查看用户test2邮箱访问权限的powershell命令如下：
+
+```
+Get-MailboxPermission -Identity test2
+```
+
+移除将用户test1对用户test2邮箱完全访问权限的powershell命令如下：
+
+```
+Remove-MailboxPermission -Identity "test2" -User "test1" -AccessRights FullAccess -Confirm:$false
+```
+
+**注：**
+
+`Add-RecipientPermission`只能在基于云的服务中使用，参考资料：
+
+https://docs.microsoft.com/en-us/powershell/module/exchange/add-recipientpermission?view=exchange-ps
+
+
+## 0x06 开源代码
 ---
 
 在实际使用过程中，如果只有邮件用户的hash，无法通过owa和ecp添加邮件转发规则
@@ -599,7 +633,7 @@ github代码已更新，地址如下：
 
 https://github.com/3gstudent/Homework-of-Python/blob/master/ewsManage.py
 
-## 0x06 防御检测
+## 0x07 防御检测
 ---
 
 1.查看单个邮件用户的转发规则
@@ -622,10 +656,10 @@ https://github.com/3gstudent/Homework-of-Python/blob/master/ewsManage.py
 Get-Mailbox|Select-Object UserPrincipalName,ForwardingAddress,ForwardingSmtpAddress
 ```
 
-## 0x07 小结
+## 0x08 小结
 ---
 
-本文介绍了三种持续获得Exchange用户收件箱邮件的方法，开源通过SOAP XML message的实现代码，支持在只有hash的条件下使用，结合利用思路给出防御建议。
+本文介绍了四种持续获得Exchange用户收件箱邮件的方法，开源通过SOAP XML message的实现代码，支持在只有hash的条件下使用，结合利用思路给出防御建议。
 
 ---
 
