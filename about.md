@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(253/262)
+### Recent Posts(256/264)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -209,13 +209,13 @@ Github:   [3gstudent](https://github.com/3gstudent)
  ProxyOracle利用分析2——CVE-2021-31196
  
 - 
- ProxyShell利用分析1——CVE-2021-34473
+ [ProxyShell利用分析1——CVE-2021-34473](https://3gstudent.github.io/ProxyShell%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%901-CVE-2021-34473)
  
 - 
- ProxyShell利用分析2——CVE-2021-34523
+ [ProxyShell利用分析2——CVE-2021-34523](https://3gstudent.github.io/ProxyShell%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%902-CVE-2021-34523)
  
 - 
- ProxyShell利用分析3——添加用户和文件写入 
+ [ProxyShell利用分析3——添加用户和文件写入](https://3gstudent.github.io/ProxyShell%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%903-%E6%B7%BB%E5%8A%A0%E7%94%A8%E6%88%B7%E5%92%8C%E6%96%87%E4%BB%B6%E5%86%99%E5%85%A5)
  
 - 
  [Pupy利用分析——Windows平台下的功能](https://3gstudent.github.io/Pupy%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90-Windows%E5%B9%B3%E5%8F%B0%E4%B8%8B%E7%9A%84%E5%8A%9F%E8%83%BD)
@@ -330,6 +330,12 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [vSphere开发指南3——VMware PowerCLI](https://3gstudent.github.io/vSphere%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%973-VMware-PowerCLI)
+
+- 
+ vSphere开发指南4——PostgreSQL
+ 
+- 
+ vSphere开发指南5——LDAP
 
 - 
  [War3地图“漏洞”分析介绍](https://3gstudent.github.io/War3%E5%9C%B0%E5%9B%BE-%E6%BC%8F%E6%B4%9E-%E5%88%86%E6%9E%90%E4%BB%8B%E7%BB%8D)
