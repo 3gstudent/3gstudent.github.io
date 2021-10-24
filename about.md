@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(256/264)
+### Recent Posts(257/265)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -104,7 +104,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Cobalt Strike的blockdlls利用分析](https://3gstudent.github.io/Cobalt_Strike%E7%9A%84blockdlls%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
  
 - 
- Confluence利用指南
+ [Confluence利用指南](https://3gstudent.github.io/Confluence%E5%88%A9%E7%94%A8%E6%8C%87%E5%8D%97)
  
 - 
  [Covenant利用分析](https://3gstudent.github.io/Covenant%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
@@ -564,6 +564,8 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透基础——利用Unicode编码混淆字符串](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E5%88%A9%E7%94%A8Unicode%E7%BC%96%E7%A0%81%E6%B7%B7%E6%B7%86%E5%AD%97%E7%AC%A6%E4%B8%B2)
+ 
+ 渗透基础——利用VMware Tools实现的后门
  
 - 
  [渗透基础——命令行下安装Microsoft .NET Framework](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E5%91%BD%E4%BB%A4%E8%A1%8C%E4%B8%8B%E5%AE%89%E8%A3%85Microsoft_.NET_Framework)
