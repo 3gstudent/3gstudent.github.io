@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(257/265)
+### Recent Posts(257/268)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -135,6 +135,12 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [Exchange Web Service(EWS)开发指南3——SOAP XML Parser](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Exchange-Web-Service(EWS)%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%973-SOAP-XML-Parser)
+ 
+- 
+ Exchange Web Service(EWS)开发指南4——Auto Downloader
+ 
+- 
+ Exchange Web Service(EWS)开发指南5——exchangelib
  
 - 
  [GadgetToJScript利用分析](https://3gstudent.github.io/GadgetToJScript%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
@@ -516,6 +522,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透测试中的Volume Shadow Copy](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84Volume-Shadow-Copy) 
+ 
+- 
+ 渗透工具开发——blind XXE利用平台的实现
  
 - 
  [渗透工具开发——XSS平台的命令行实现](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%B7%A5%E5%85%B7%E5%BC%80%E5%8F%91-XSS%E5%B9%B3%E5%8F%B0%E7%9A%84%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%AE%9E%E7%8E%B0)
