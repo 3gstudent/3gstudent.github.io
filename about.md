@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(257/268)
+### Recent Posts(257/269)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -471,6 +471,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  [利用JS/Vbs加载.Net程序](https://3gstudent.github.io/%E5%88%A9%E7%94%A8JS%E5%8A%A0%E8%BD%BD.Net%E7%A8%8B%E5%BA%8F)
+ 
+- 
+ 利用TelemetryController实现的后门分析
  
 - 
  [利用VSTO实现的office后门](https://3gstudent.github.io/%E5%88%A9%E7%94%A8VSTO%E5%AE%9E%E7%8E%B0%E7%9A%84office%E5%90%8E%E9%97%A8)
