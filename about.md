@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(259/269)
+### Recent Posts(259/273)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -141,6 +141,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  Exchange Web Service(EWS)开发指南5——exchangelib
+ 
+- 
+ Exchange Web Service(EWS)开发指南6——requests_ntlm
  
 - 
  [GadgetToJScript利用分析](https://3gstudent.github.io/GadgetToJScript%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
@@ -228,6 +231,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [Pupy利用分析——Windows平台下的屏幕控制](https://3gstudent.github.io/Pupy%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90-Windows%E5%B9%B3%E5%8F%B0%E4%B8%8B%E7%9A%84%E5%B1%8F%E5%B9%95%E6%8E%A7%E5%88%B6)
+ 
+- 
+ Pwn2Own 2021 Microsoft Exchange Server漏洞(CVE-2021-31196)利用分析
  
 - 
  [SharpGen利用分析](https://3gstudent.github.io/SharpGen%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
@@ -342,6 +348,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  vSphere开发指南5——LDAP
+
+- 
+ vSphere开发指南6——vCenter SAML Certificates
 
 - 
  [War3地图“漏洞”分析介绍](https://3gstudent.github.io/War3%E5%9C%B0%E5%9B%BE-%E6%BC%8F%E6%B4%9E-%E5%88%86%E6%9E%90%E4%BB%8B%E7%BB%8D)
@@ -540,6 +549,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透基础——Exchange一句话后门的实现](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-Exchange%E4%B8%80%E5%8F%A5%E8%AF%9D%E5%90%8E%E9%97%A8%E7%9A%84%E5%AE%9E%E7%8E%B0)
+ 
+- 
+ 渗透基础——Exchange一句话后门的进一步实现
  
 - 
  [渗透基础——Exchange用户邮箱中的隐藏文件夹](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-Exchange%E7%94%A8%E6%88%B7%E9%82%AE%E7%AE%B1%E4%B8%AD%E7%9A%84%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E5%A4%B9)
