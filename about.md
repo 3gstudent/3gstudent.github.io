@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(271/275)
+### Recent Posts(271/276)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -153,6 +153,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [Hidden Alternative Data Streams的进阶利用技巧](https://3gstudent.github.io/Hidden-Alternative-Data-Streams%E7%9A%84%E8%BF%9B%E9%98%B6%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7)
+ 
+- 
+ Java利用技巧——通过反射实现webshell编译文件的自删除
  
 - 
  Java利用技巧——通过反射修改属性
