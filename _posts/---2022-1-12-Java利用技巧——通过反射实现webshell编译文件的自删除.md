@@ -25,19 +25,19 @@ title: Java利用技巧——通过反射实现webshell编译文件的自删除
 
 查看JspServletWrapper类中的成员，`jsps`->`value`->`ctxt`->`servletJavaFileName`保存`.java`编译文件的路径，`jsps`->`value`->`ctxt`->`classFileName`保存`.class`编译文件的路径，示例如下图
 
-![Alt text](./2-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2022-1-12/2-1.png)
 
 为了只筛选出当前jsp，可以通过request类的`getServletPath()`方法获得当前Servlet，如下图
 
-![Alt text](./2-2.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2022-1-12/2-2.png)
 
 从ctxt对象获取servletJavaFileName可以调用JspCompilationContext类的`getServletJavaFileName()`方法，如下图
 
-![Alt text](./2-3.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2022-1-12/2-3.png)
 
 从ctxt对象获取classFileName可以调用JspCompilationContext类的`getClassFileName()`方法，如下图
 
-![Alt text](./2-4.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2022-1-12/2-4.png)
 
 综上，由此我们可以得出通过反射获取编译文件路径的实现代码如下：
 
@@ -115,7 +115,7 @@ rebeyond在[《利用动态二进制加密实现新型一句话木马之Java篇�
 
 在ClassLoader类中，`defineClass()`方法有多个重载，如下图
 
-![Alt text](./3-1.png)
+![Alt text](https://raw.githubusercontent.com/3gstudent/BlogPic/master/2022-1-12/3-1.png)
 
 这里选择`defineClass(byte[] b, int off, int len)`
 
