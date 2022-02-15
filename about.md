@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(271/277)
+### Recent Posts(272/278)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -159,6 +159,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  Java利用技巧——通过反射修改属性
+ 
+- 
+ Java利用技巧——通过JNI加载dll
  
 - 
  [Joomla 3.4.4-3.6.3 Account Creation &Privilege Escalation测试记录](https://3gstudent.github.io/Joomla-3.4.4-3.6.3-Account-Creation-&Privilege-Escalation%E6%B5%8B%E8%AF%95%E8%AE%B0%E5%BD%95)
@@ -428,7 +431,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Zimbra反序列化漏洞(CVE-2019-6980)利用测试](https://3gstudent.github.io/Zimbra%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E(CVE-2019-6980)%E5%88%A9%E7%94%A8%E6%B5%8B%E8%AF%95)
 
  - 
- Zimbra漏洞调试环境搭建
+ [Zimbra漏洞调试环境搭建](https://3gstudent.github.io/Zimbra%E6%BC%8F%E6%B4%9E%E8%B0%83%E8%AF%95%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)
 
 - 
  [本地密码查看工具LaZagne中的自定义脚本开发](https://3gstudent.github.io/%E6%9C%AC%E5%9C%B0%E5%AF%86%E7%A0%81%E6%9F%A5%E7%9C%8B%E5%B7%A5%E5%85%B7LaZagne%E4%B8%AD%E7%9A%84%E8%87%AA%E5%AE%9A%E4%B9%89%E8%84%9A%E6%9C%AC%E5%BC%80%E5%8F%91)
