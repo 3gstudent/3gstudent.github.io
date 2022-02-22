@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(272/278)
+### Recent Posts(272/279)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -162,6 +162,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  Java利用技巧——通过JNI加载dll
+ 
+- 
+ Java利用技巧——通过jsp加载Shellcode
  
 - 
  [Joomla 3.4.4-3.6.3 Account Creation &Privilege Escalation测试记录](https://3gstudent.github.io/Joomla-3.4.4-3.6.3-Account-Creation-&Privilege-Escalation%E6%B5%8B%E8%AF%95%E8%AE%B0%E5%BD%95)
