@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(273/281)
+### Recent Posts(273/282)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -635,6 +635,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透基础——域用户的密码永不过期属性](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E5%9F%9F%E7%94%A8%E6%88%B7%E7%9A%84%E5%AF%86%E7%A0%81%E6%B0%B8%E4%B8%8D%E8%BF%87%E6%9C%9F%E5%B1%9E%E6%80%A7)
+ 
+- 
+ 渗透基础——在Win7下运行csvde
  
 - 
  [渗透基础——支持NTLM Over HTTP协议的Webshell实现](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E6%94%AF%E6%8C%81NTLM-Over-HTTP%E5%8D%8F%E8%AE%AE%E7%9A%84Webshell%E5%AE%9E%E7%8E%B0)
