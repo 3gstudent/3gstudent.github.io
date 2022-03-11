@@ -155,7 +155,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Hidden Alternative Data Streams的进阶利用技巧](https://3gstudent.github.io/Hidden-Alternative-Data-Streams%E7%9A%84%E8%BF%9B%E9%98%B6%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7)
  
 - 
- Java利用技巧——通过反射实现webshell编译文件的自删除
+ [Java利用技巧——通过反射实现webshell编译文件的自删除](https://3gstudent.github.io/Java%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7-%E9%80%9A%E8%BF%87%E5%8F%8D%E5%B0%84%E5%AE%9E%E7%8E%B0webshell%E7%BC%96%E8%AF%91%E6%96%87%E4%BB%B6%E7%9A%84%E8%87%AA%E5%88%A0%E9%99%A4)
  
 - 
  [Java利用技巧——通过反射修改属性](https://3gstudent.github.io/Java%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7-%E9%80%9A%E8%BF%87%E5%8F%8D%E5%B0%84%E4%BF%AE%E6%94%B9%E5%B1%9E%E6%80%A7)
