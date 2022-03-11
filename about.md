@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(273/282)
+### Recent Posts(274/283)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -580,11 +580,15 @@ Github:   [3gstudent](https://github.com/3gstudent)
 - 
  [渗透基础——SSH日志的绕过](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-SSH%E6%97%A5%E5%BF%97%E7%9A%84%E7%BB%95%E8%BF%87)
  
+ 
 - 
  渗透基础——Windows Defender
  
 - 
  [渗透基础——Windows下计划任务的使用](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-Windows%E4%B8%8B%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1%E7%9A%84%E4%BD%BF%E7%94%A8)
+
+- 
+ 渗透基础——WMIC的使用
 
 - 
  [渗透基础——持续获得Exchange用户收件箱邮件的方法](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E6%8C%81%E7%BB%AD%E8%8E%B7%E5%BE%97Exchange%E7%94%A8%E6%88%B7%E6%94%B6%E4%BB%B6%E7%AE%B1%E9%82%AE%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95)
