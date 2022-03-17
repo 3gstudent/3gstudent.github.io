@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(274/284)
+### Recent Posts(276/284)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -161,7 +161,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Java利用技巧——通过反射修改属性](https://3gstudent.github.io/Java%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7-%E9%80%9A%E8%BF%87%E5%8F%8D%E5%B0%84%E4%BF%AE%E6%94%B9%E5%B1%9E%E6%80%A7)
  
 - 
- Java利用技巧——通过JNI加载dll
+ [Java利用技巧——通过JNI加载dll](https://3gstudent.github.io/Java%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7%E2%80%94%E2%80%94%E9%80%9A%E8%BF%87JNI%E5%8A%A0%E8%BD%BDdll)
  
 - 
  Java利用技巧——通过jsp加载Shellcode
@@ -575,7 +575,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透基础——Exchange一句话后门的实现](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-Exchange%E4%B8%80%E5%8F%A5%E8%AF%9D%E5%90%8E%E9%97%A8%E7%9A%84%E5%AE%9E%E7%8E%B0)
  
 - 
- 渗透基础——Exchange一句话后门的进一步实现
+ [渗透基础——Exchange一句话后门的进一步实现](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80%E2%80%94%E2%80%94Exchange%E4%B8%80%E5%8F%A5%E8%AF%9D%E5%90%8E%E9%97%A8%E7%9A%84%E8%BF%9B%E4%B8%80%E6%AD%A5%E5%AE%9E%E7%8E%B0)
  
 - 
  [渗透基础——Exchange用户邮箱中的隐藏文件夹](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-Exchange%E7%94%A8%E6%88%B7%E9%82%AE%E7%AE%B1%E4%B8%AD%E7%9A%84%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E5%A4%B9)
