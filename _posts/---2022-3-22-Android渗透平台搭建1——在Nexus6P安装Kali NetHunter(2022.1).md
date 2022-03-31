@@ -1,15 +1,17 @@
 ---
 layout: post
-title: Kali NetHunter(2022.1)安装指南
+title: Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
 ---
 
 
 ## 0x00 前言
 ---
 
-Kali NetHunter是首个针对Android设备的开源渗透测试平台，允许从Android设备运行Kali工具集。
+Android渗透平台搭建的系列文章将要介绍在Android设备上搭建各种用于渗透的操作系统。
 
-目前最新的版本为2022月1月，对于这个版本，还没有一个完整的安装指南。于是本文从零开始，完整介绍Android设备Nexus6P安装Kali NetHunter的方法，记录细节。
+本文作为第一篇，将要介绍Android设备Nexus6P安装Kali NetHunter的方法，记录细节。
+
+Kali NetHunter目前最新的版本为2022月1月，对于这个版本，还没有一个完整的安装指南。
 
 ## 0x01 简介
 ---
@@ -18,7 +20,6 @@ Kali NetHunter是首个针对Android设备的开源渗透测试平台，允许�
 
 - Kali NetHunter的不同版本
 - Nexus6P安装Kali NetHunter
-
 
 ## 0x02 Kali NetHunter的不同版本
 ---
