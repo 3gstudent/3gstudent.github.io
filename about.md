@@ -383,10 +383,10 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Windows Lnk远程代码执行漏洞(CVE-2017-8464)利用测试](https://3gstudent.github.io/Windows-Lnk%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E(CVE-2017-8464)%E5%88%A9%E7%94%A8%E6%B5%8B%E8%AF%95)
  
 - 
- Windows Communication Foundation开发指南1——启用元数据发布
+ [Windows Communication Foundation开发指南1——启用元数据发布](https://3gstudent.github.io/Windows-Communication-Foundation%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%971-%E5%90%AF%E7%94%A8%E5%85%83%E6%95%B0%E6%8D%AE%E5%8F%91%E5%B8%83)
  
 - 
- Windows Communication Foundation开发指南2——禁用元数据发布
+ [Windows Communication Foundation开发指南2——禁用元数据发布](https://3gstudent.github.io/Windows-Communication-Foundation%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%972-%E7%A6%81%E7%94%A8%E5%85%83%E6%95%B0%E6%8D%AE%E5%8F%91%E5%B8%83)
  
 - 
  [Windows Shellcode学习笔记——通过VisualStudio生成shellcode](https://3gstudent.github.io/Windows-Shellcode%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0-%E9%80%9A%E8%BF%87VisualStudio%E7%94%9F%E6%88%90shellcode)
