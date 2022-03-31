@@ -64,6 +64,8 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ### Recent Posts(276/284)
 
+- 
+ Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
@@ -169,9 +171,6 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [Joomla 3.4.4-3.6.3 Account Creation &Privilege Escalation测试记录](https://3gstudent.github.io/Joomla-3.4.4-3.6.3-Account-Creation-&Privilege-Escalation%E6%B5%8B%E8%AF%95%E8%AE%B0%E5%BD%95)
- 
-- 
- Kali NetHunter(2022.1)安装指南
  
 - 
  [《Lateral Movement — SCM and DLL Hijacking Primer》的利用扩展](https://3gstudent.github.io/Lateral-Movement-SCM-and-DLL-Hijacking-Primer-%E7%9A%84%E5%88%A9%E7%94%A8%E6%89%A9%E5%B1%95)
