@@ -62,10 +62,16 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(276/284)
+### Recent Posts(276/286)
 
 - 
  Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
+
+- 
+ Android渗透平台搭建2——在OnePlus6T上安装Win11
+
+- 
+ Android渗透平台搭建3——在OnePlus6T上安装Kali的两种方法
 
 - 
  [An interesting way of bypassing Windows Attachment Manager](https://3gstudent.github.io/An-interesting-way-of-bypassing-Windows-Attachment-Manager)
