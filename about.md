@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(276/286)
+### Recent Posts(276/287)
 
 - 
  Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
@@ -573,6 +573,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透基础——Exchange Autodiscover的使用](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-Exchange-Autodiscover%E7%9A%84%E4%BD%BF%E7%94%A8)
+ 
+- 
+ 渗透基础——Exchange版本探测和漏洞检测
  
 - 
  [渗透基础——Exchange一句话后门的扩展](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-Exchange%E4%B8%80%E5%8F%A5%E8%AF%9D%E5%90%8E%E9%97%A8%E7%9A%84%E6%89%A9%E5%B1%95)
