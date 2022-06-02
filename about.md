@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(282/291)
+### Recent Posts(282/295)
 
 - 
  Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
@@ -153,6 +153,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [Exchange Web Service(EWS)开发指南6——requests_ntlm](https://3gstudent.github.io/Exchange-Web-Service(EWS)%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%976-requests_ntlm)
+ 
+- 
+ F5 BIG-IP漏洞调试环境搭建
  
 - 
  [GadgetToJScript利用分析](https://3gstudent.github.io/GadgetToJScript%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
@@ -273,6 +276,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [SolarWinds Orion开发指南](https://3gstudent.github.io/SolarWinds-Orion%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97)
+ 
+- 
+ Sophos UTM利用分析——导出配置文件
  
 - 
  [Study Notes of using dnx.exe / rcsi.exe to bypass Decvice Guard UMCI](https://3gstudent.github.io/Study-Notes-of-using-dnx.exe-&-rcsi.exe-to-bypass-Decvice-Guard-UMCI)
@@ -627,6 +633,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透基础——获得当前系统已安装的程序列表](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E8%8E%B7%E5%BE%97%E5%BD%93%E5%89%8D%E7%B3%BB%E7%BB%9F%E5%B7%B2%E5%AE%89%E8%A3%85%E7%9A%84%E7%A8%8B%E5%BA%8F%E5%88%97%E8%A1%A8)
  
 - 
+ 渗透基础——获得域用户的登录信息
+ 
+- 
  渗透基础——获得Exchange服务器的内网IP
  
 - 
@@ -663,6 +672,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透基础——域用户的密码永不过期属性](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E5%9F%9F%E7%94%A8%E6%88%B7%E7%9A%84%E5%AF%86%E7%A0%81%E6%B0%B8%E4%B8%8D%E8%BF%87%E6%9C%9F%E5%B1%9E%E6%80%A7)
+ 
+- 
+ 渗透基础——远程从lsass.exe进程导出凭据
  
 - 
  [渗透基础——在Win7下运行csvde](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E5%9C%A8Win7%E4%B8%8B%E8%BF%90%E8%A1%8Ccsvde)
