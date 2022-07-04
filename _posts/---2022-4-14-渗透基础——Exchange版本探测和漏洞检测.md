@@ -129,8 +129,14 @@ vularray = [
 ]
 date="03/01/2021"
 for value in vularray:
-    if (date.split('/')[2] <= value[1].split('/')[2]) & (date.split('/')[1] <= value[1].split('/')[1]) & (date.split('/')[0] < value[1].split('/')[0]):
+    if (date.split('/')[2] < value[1].split('/')[2]):
         print("[+] " + value[0] + ", " + value[1])
+    else:
+        if (date.split('/')[2] == value[1].split('/')[2]) & (date.split('/')[0] < value[1].split('/')[0]):
+            print("[+] " + value[0] + ", " + value[1])
+        else:
+            if (date.split('/')[2] == value[1].split('/')[2]) & (date.split('/')[0] == value[1].split('/')[0]) & (date.split('/')[1] < value[1].split('/')[1]):
+                print("[+] " + value[0] + ", " + value[1])
 ```
 
 ## 0x04 开源代码
