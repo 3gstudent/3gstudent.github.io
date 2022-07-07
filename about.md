@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(286/298)
+### Recent Posts(286/299)
 
 - 
  Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
