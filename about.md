@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(287/299)
+### Recent Posts(287/303)
 
 - 
  Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
@@ -179,6 +179,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Java利用技巧——通过jsp加载Shellcode](https://3gstudent.github.io/Java%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7-%E9%80%9A%E8%BF%87jsp%E5%8A%A0%E8%BD%BDShellcode)
  
 - 
+ Java利用技巧——AntSword-JSP-Template的优化
+ 
+- 
  [Joomla 3.4.4-3.6.3 Account Creation &Privilege Escalation测试记录](https://3gstudent.github.io/Joomla-3.4.4-3.6.3-Account-Creation-&Privilege-Escalation%E6%B5%8B%E8%AF%95%E8%AE%B0%E5%BD%95)
  
 - 
@@ -286,6 +289,12 @@ Github:   [3gstudent](https://github.com/3gstudent)
 - 
  Sophos UTM利用分析——清除Last WebAdmin Sessions记录 
  
+- 
+ Sophos XG防火墙身份验证绕过漏洞(CVE-2022-1040)利用分析
+ 
+- 
+ Sophos XG漏洞调试环境搭建
+
 - 
  [Study Notes of using dnx.exe / rcsi.exe to bypass Decvice Guard UMCI](https://3gstudent.github.io/Study-Notes-of-using-dnx.exe-&-rcsi.exe-to-bypass-Decvice-Guard-UMCI)
 
@@ -465,6 +474,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  [Zimbra-SOAP-API开发指南2](https://3gstudent.github.io/Zimbra-SOAP-API%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%972)
+ 
+- 
+ Zimbra-SOAP-API开发指南3——操作邮件
  
  - 
  [Zimbra反序列化漏洞(CVE-2019-6980)利用测试](https://3gstudent.github.io/Zimbra%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E(CVE-2019-6980)%E5%88%A9%E7%94%A8%E6%B5%8B%E8%AF%95)
