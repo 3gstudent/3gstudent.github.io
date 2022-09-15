@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(289/307)
+### Recent Posts(293/307)
 
 - 
  Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
@@ -188,7 +188,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [《Lateral Movement — SCM and DLL Hijacking Primer》的利用扩展](https://3gstudent.github.io/Lateral-Movement-SCM-and-DLL-Hijacking-Primer-%E7%9A%84%E5%88%A9%E7%94%A8%E6%89%A9%E5%B1%95)
  
 - 
- Lsassy二次开发——添加dump方法 
+ [Lsassy二次开发——添加dump方法](https://3gstudent.github.io/Lsassy%E4%BA%8C%E6%AC%A1%E5%BC%80%E5%8F%91-%E6%B7%BB%E5%8A%A0dump%E6%96%B9%E6%B3%95)
  
 - 
  [Linux下的密码Hash——加密方式与破解方法的技术整理](https://3gstudent.github.io/Linux%E4%B8%8B%E7%9A%84%E5%AF%86%E7%A0%81Hash-%E5%8A%A0%E5%AF%86%E6%96%B9%E5%BC%8F%E4%B8%8E%E7%A0%B4%E8%A7%A3%E6%96%B9%E6%B3%95%E7%9A%84%E6%8A%80%E6%9C%AF%E6%95%B4%E7%90%86)
@@ -290,10 +290,10 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [SolarWinds Orion开发指南](https://3gstudent.github.io/SolarWinds-Orion%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%97)
  
 - 
- Sophos UTM利用分析——导出配置文件
+ [Sophos UTM利用分析——导出配置文件](https://3gstudent.github.io/Sophos-UTM%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90-%E5%AF%BC%E5%87%BA%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)
  
 - 
- Sophos UTM利用分析——清除Last WebAdmin Sessions记录 
+ [Sophos UTM利用分析——清除Last WebAdmin Sessions记录](https://3gstudent.github.io/Sophos-UTM%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90-%E6%B8%85%E9%99%A4Last-WebAdmin-Sessions%E8%AE%B0%E5%BD%95)
  
 - 
  Sophos XG防火墙身份验证绕过漏洞(CVE-2022-1040)利用分析
@@ -623,7 +623,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透基础——Exchange Autodiscover的使用](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-Exchange-Autodiscover%E7%9A%84%E4%BD%BF%E7%94%A8)
  
 - 
- 渗透基础——Exchange版本探测和漏洞检测
+ [渗透基础——Exchange版本探测和漏洞检测](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-Exchange%E7%89%88%E6%9C%AC%E6%8E%A2%E6%B5%8B%E5%92%8C%E6%BC%8F%E6%B4%9E%E6%A3%80%E6%B5%8B)
  
 - 
  渗透基础——Exchange版本探测的优化
