@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(289/303)
+### Recent Posts(289/307)
 
 - 
  Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
@@ -228,6 +228,12 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  [Password Filter DLL在渗透测试中的应用](https://3gstudent.github.io/Password-Filter-DLL%E5%9C%A8%E6%B8%97%E9%80%8F%E6%B5%8B%E8%AF%95%E4%B8%AD%E7%9A%84%E5%BA%94%E7%94%A8)
+ 
+- 
+  Password Manager Pro漏洞调试环境搭建
+  
+- 
+  Password Manager Pro利用分析——数据解密
  
 - 
  [Phishing credentials via Basic Authentication(phishery)利用测试](https://3gstudent.github.io/Phishing-credentials-via-Basic-Authentication(phishery)%E5%88%A9%E7%94%A8%E6%B5%8B%E8%AF%95)
@@ -477,11 +483,17 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  Zimbra-SOAP-API开发指南3——操作邮件
+
+- 
+ Zimbra-SOAP-API开发指南4——邮件导出和文件夹共享
+
+- 
+ Zimbra-SOAP-API开发指南5——邮件转发
  
- - 
+- 
  [Zimbra反序列化漏洞(CVE-2019-6980)利用测试](https://3gstudent.github.io/Zimbra%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E(CVE-2019-6980)%E5%88%A9%E7%94%A8%E6%B5%8B%E8%AF%95)
 
- - 
+- 
  [Zimbra漏洞调试环境搭建](https://3gstudent.github.io/Zimbra%E6%BC%8F%E6%B4%9E%E8%B0%83%E8%AF%95%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)
 
 - 
