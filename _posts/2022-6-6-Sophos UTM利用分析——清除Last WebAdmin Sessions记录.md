@@ -43,7 +43,7 @@ title: Sophos UTM利用分析——清除Last WebAdmin Sessions记录
 
 ### 1.尝试修改`/var/confd/var/storage/cfg`
 
-在上篇文章《Sophos UTM利用分析——导出配置文件》提到，`/var/confd/var/storage/cfg`存储Sophos UTM的配置信息，所以猜测通过修改`/var/confd/var/storage/cfg`文件可以实现Last WebAdmin Sessions记录的清除
+在上篇文章[《Sophos UTM利用分析——导出配置文件》](https://3gstudent.github.io/Sophos-UTM%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90-%E5%AF%BC%E5%87%BA%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)提到，`/var/confd/var/storage/cfg`存储Sophos UTM的配置信息，所以猜测通过修改`/var/confd/var/storage/cfg`文件可以实现Last WebAdmin Sessions记录的清除
 
 `/var/confd/var/storage/cfg`的文件格式为Perl Storable files，这里使用[StorableEdit](https://viereck.ch/perl/storableedit/)来编辑文件
 
