@@ -686,6 +686,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 - 
  [渗透基础——利用Unicode编码混淆字符串](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E5%88%A9%E7%94%A8Unicode%E7%BC%96%E7%A0%81%E6%B7%B7%E6%B7%86%E5%AD%97%E7%AC%A6%E4%B8%B2)
  
+- 
  [渗透基础——利用VMware Tools实现的后门](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E5%88%A9%E7%94%A8VMware-Tools%E5%AE%9E%E7%8E%B0%E7%9A%84%E5%90%8E%E9%97%A8)
  
 - 
