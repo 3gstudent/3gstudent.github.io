@@ -129,7 +129,7 @@ ls
 
 ### 5.反编译confd.plx
 
-经过搜索，在《网络设备分析实战 | Sophos UTM固件反编译Perl源码》获得提示： .plx文件是由PerlAPP工具编译而来，可通过动态调试的方法使用IDA反编译出源码
+经过搜索，在《网络设备分析实战  Sophos UTM固件反编译Perl源码》获得提示： .plx文件是由PerlAPP工具编译而来，可通过动态调试的方法使用IDA反编译出源码
 
 经过搜索，在[《Sophos UTM Preauth RCE: A Deep Dive into CVE-2020-25223》](https://www.atredis.com/blog/2021/8/18/sophos-utm-cve-2020-25223)获得更为简单的反编译方法:通过Python实现静态反编译
 
