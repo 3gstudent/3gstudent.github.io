@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(293/311)
+### Recent Posts(294/311)
 
 - 
  Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
@@ -305,7 +305,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  Sophos XG防火墙身份验证绕过漏洞(CVE-2022-1040)利用分析
  
 - 
- Sophos XG漏洞调试环境搭建
+ [Sophos XG漏洞调试环境搭建](https://3gstudent.github.io/Sophos-XG%E6%BC%8F%E6%B4%9E%E8%B0%83%E8%AF%95%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)
 
 - 
  [Study Notes of using dnx.exe / rcsi.exe to bypass Decvice Guard UMCI](https://3gstudent.github.io/Study-Notes-of-using-dnx.exe-&-rcsi.exe-to-bypass-Decvice-Guard-UMCI)
