@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(294/313)
+### Recent Posts(296/313)
 
 - 
  Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
@@ -491,7 +491,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Zimbra-SOAP-API开发指南2](https://3gstudent.github.io/Zimbra-SOAP-API%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%972)
  
 - 
- Zimbra-SOAP-API开发指南3——操作邮件
+ [Zimbra-SOAP-API开发指南3——操作邮件](https://3gstudent.github.io/Zimbra-SOAP-API%E5%BC%80%E5%8F%91%E6%8C%87%E5%8D%973-%E6%93%8D%E4%BD%9C%E9%82%AE%E4%BB%B6)
 
 - 
  Zimbra-SOAP-API开发指南4——邮件导出和文件夹共享
@@ -588,9 +588,6 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [内网安全——利用NSA Smbtouch批量检测内网](https://3gstudent.github.io/%E5%86%85%E7%BD%91%E5%AE%89%E5%85%A8-%E5%88%A9%E7%94%A8NSA-Smbtouch%E6%89%B9%E9%87%8F%E6%A3%80%E6%B5%8B%E5%86%85%E7%BD%91)
- 
-- 
- 内网渗透——从VMware ESXI横向移动到Windows虚拟机
  
 - 
  [逆向分析——使用IDA动态调试WanaCrypt0r中的tasksche.exe](https://3gstudent.github.io/%E9%80%86%E5%90%91%E5%88%86%E6%9E%90-%E4%BD%BF%E7%94%A8IDA%E5%8A%A8%E6%80%81%E8%B0%83%E8%AF%95WanaCrypt0r%E4%B8%AD%E7%9A%84tasksche.exe)
@@ -814,6 +811,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  [渗透技巧——从github下载文件的多种方法](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BB%8Egithub%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E6%B3%95)
+
+- 
+ [渗透技巧——从VMware ESXI横向移动到Windows虚拟机](https://3gstudent.github.io/%E5%86%85%E7%BD%91%E6%B8%97%E9%80%8F-%E4%BB%8EVMware-ESXI%E6%A8%AA%E5%90%91%E7%A7%BB%E5%8A%A8%E5%88%B0Windows%E8%99%9A%E6%8B%9F%E6%9C%BA)
 
 - 
  [渗透技巧——从远程桌面客户端提取明文凭据](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BB%8E%E8%BF%9C%E7%A8%8B%E6%A1%8C%E9%9D%A2%E5%AE%A2%E6%88%B7%E7%AB%AF%E6%8F%90%E5%8F%96%E6%98%8E%E6%96%87%E5%87%AD%E6%8D%AE)
