@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(294/311)
+### Recent Posts(294/313)
 
 - 
  Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
@@ -276,6 +276,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [Pwn2Own 2021 Microsoft Exchange Server漏洞(CVE-2021-31196)利用分析](https://3gstudent.github.io/Pwn2Own-2021-Microsoft-Exchange-Server%E6%BC%8F%E6%B4%9E(CVE-2021-31196)%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
+ 
+- 
+ pypsrp在Exchange Powershell下的优化
  
 - 
  [SharpGen利用分析](https://3gstudent.github.io/SharpGen%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
@@ -904,6 +907,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  [渗透技巧——"隐藏"注册表的更多测试](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E9%9A%90%E8%97%8F-%E6%B3%A8%E5%86%8C%E8%A1%A8%E7%9A%84%E6%9B%B4%E5%A4%9A%E6%B5%8B%E8%AF%95)
+
+- 
+ 渗透技巧——远程访问Exchange Powershell
 
 - 
  [通过.NET实现内存加载PE文件](https://3gstudent.github.io/%E9%80%9A%E8%BF%87.NET%E5%AE%9E%E7%8E%B0%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BDPE%E6%96%87%E4%BB%B6)
