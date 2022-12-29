@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(300/313)
+### Recent Posts(300/317)
 
 - 
  Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
@@ -188,6 +188,12 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Java利用技巧——AntSword-JSP-Template的优化](https://3gstudent.github.io/Java%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7-AntSword-JSP-Template%E7%9A%84%E4%BC%98%E5%8C%96)
  
 - 
+ Java利用技巧——Jetty Filter型内存马
+ 
+- 
+ Java利用技巧——Jetty Servlet型内存马
+ 
+- 
  [Joomla 3.4.4-3.6.3 Account Creation &Privilege Escalation测试记录](https://3gstudent.github.io/Joomla-3.4.4-3.6.3-Account-Creation-&Privilege-Escalation%E6%B5%8B%E8%AF%95%E8%AE%B0%E5%BD%95)
  
 - 
@@ -279,6 +285,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  pypsrp在Exchange Powershell下的优化
+ 
+- 
+ Server Backup Manager漏洞调试环境搭建
  
 - 
  [SharpGen利用分析](https://3gstudent.github.io/SharpGen%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
@@ -982,6 +991,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  [域渗透——利用dnscmd在DNS服务器上实现远程加载Dll](https://3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8dnscmd%E5%9C%A8DNS%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%8A%E5%AE%9E%E7%8E%B0%E8%BF%9C%E7%A8%8B%E5%8A%A0%E8%BD%BDDll)
+
+- 
+ 域渗透——利用GPO中的脚本实现远程执行
 
 - 
  [域渗透——利用GPO中的计划任务实现远程执行](https://3gstudent.github.io/%E5%9F%9F%E6%B8%97%E9%80%8F-%E5%88%A9%E7%94%A8GPO%E4%B8%AD%E7%9A%84%E8%AE%A1%E5%88%92%E4%BB%BB%E5%8A%A1%E5%AE%9E%E7%8E%B0%E8%BF%9C%E7%A8%8B%E6%89%A7%E8%A1%8C)
