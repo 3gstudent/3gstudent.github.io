@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(302/317)
+### Recent Posts(302/321)
 
 - 
  Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
@@ -246,7 +246,10 @@ Github:   [3gstudent](https://github.com/3gstudent)
   
 - 
   [Password Manager Pro利用分析——数据解密](https://3gstudent.github.io/Password-Manager-Pro%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90-%E6%95%B0%E6%8D%AE%E8%A7%A3%E5%AF%86)
- 
+  
+- 
+  Python开发技巧——禁用Requests库编码url  
+  
 - 
  [Phishing credentials via Basic Authentication(phishery)利用测试](https://3gstudent.github.io/Phishing-credentials-via-Basic-Authentication(phishery)%E5%88%A9%E7%94%A8%E6%B5%8B%E8%AF%95)
  
@@ -345,6 +348,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 - 
  [Study Notes Weekly No.4(Use tracker to load dll & Use csi to bypass UMCI & Execute C# from XSLT file)](https://3gstudent.github.io/Study-Notes-Weekly-No.4(Use-tracker-to-load-dll-&-Use-csi-to-bypass-UMCI-&-Execute-C-from-XSLT-file))
+
+- 
+ TabShell利用分析——执行cmd命令并获得返回结果
 
 - 
  [TeamViewer 13.0.5058中的权限漏洞测试](https://3gstudent.github.io/TeamViewer-13.0.5058%E4%B8%AD%E7%9A%84%E6%9D%83%E9%99%90%E6%BC%8F%E6%B4%9E%E6%B5%8B%E8%AF%95)
@@ -659,6 +665,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透基础——Exchange用户邮箱中的隐藏文件夹](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-Exchange%E7%94%A8%E6%88%B7%E9%82%AE%E7%AE%B1%E4%B8%AD%E7%9A%84%E9%9A%90%E8%97%8F%E6%96%87%E4%BB%B6%E5%A4%B9)
  
 - 
+ 渗透基础——Fortigate识别与版本探测
+ 
+- 
  [渗透基础——SSH日志的绕过](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-SSH%E6%97%A5%E5%BF%97%E7%9A%84%E7%BB%95%E8%BF%87)
  
  
@@ -736,6 +745,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透基础——支持NTLM Over HTTP协议的Webshell实现](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E6%94%AF%E6%8C%81NTLM-Over-HTTP%E5%8D%8F%E8%AE%AE%E7%9A%84Webshell%E5%AE%9E%E7%8E%B0)
+ 
+- 
+ 渗透技巧——Exchange Powershell的Python实现
  
 - 
  [渗透技巧——Junction Folders和Library Files的后门利用](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Junction-Folders%E5%92%8CLibrary-Files%E7%9A%84%E5%90%8E%E9%97%A8%E5%88%A9%E7%94%A8)
