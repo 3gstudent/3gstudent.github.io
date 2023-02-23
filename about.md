@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(304/321)
+### Recent Posts(304/325)
 
 - 
  Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
@@ -162,6 +162,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [GadgetToJScript利用分析](https://3gstudent.github.io/GadgetToJScript%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
+ 
+- 
+ GoAnywhere Managed File Transfer漏洞调试环境搭建
  
 - 
  [GookitBankingTrojan中的后门利用分析](https://3gstudent.github.io/GookitBankingTrojan%E4%B8%AD%E7%9A%84%E5%90%8E%E9%97%A8%E5%88%A9%E7%94%A8%E5%88%86%E6%9E%90)
@@ -411,6 +414,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [VMware Workspace ONE Access调试分析——数据库口令的破解](https://3gstudent.github.io/VMware-Workspace-ONE-Access%E8%B0%83%E8%AF%95%E5%88%86%E6%9E%90-%E6%95%B0%E6%8D%AE%E5%BA%93%E5%8F%A3%E4%BB%A4%E7%9A%84%E7%A0%B4%E8%A7%A3)
+ 
+- 
+ vRealize Log Insight漏洞调试环境搭建
  
 - 
  [vRealize Operations Manager漏洞调试环境搭建](https://3gstudent.github.io/vRealize-Operations-Manager%E6%BC%8F%E6%B4%9E%E8%B0%83%E8%AF%95%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)
@@ -681,6 +687,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透基础——WMIC的使用](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-WMIC%E7%9A%84%E4%BD%BF%E7%94%A8)
 
 - 
+ 渗透基础——Zimbra版本探测
+
+- 
  [渗透基础——持续获得Exchange用户收件箱邮件的方法](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-%E6%8C%81%E7%BB%AD%E8%8E%B7%E5%BE%97Exchange%E7%94%A8%E6%88%B7%E6%94%B6%E4%BB%B6%E7%AE%B1%E9%82%AE%E4%BB%B6%E7%9A%84%E6%96%B9%E6%B3%95)
 
 - 
@@ -769,6 +778,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  [渗透技巧——Token窃取与利用](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Token%E7%AA%83%E5%8F%96%E4%B8%8E%E5%88%A9%E7%94%A8)
+
+- 
+ 渗透基础——WebLogic版本探测
 
 - 
  [渗透技巧——Windows command line process auditing的绕过](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-Windows-command-line-process-auditing%E7%9A%84%E7%BB%95%E8%BF%87)
