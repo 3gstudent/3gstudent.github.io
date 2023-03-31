@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(310/325)
+### Recent Posts(310/327)
 
 - 
  Android渗透平台搭建1——在Nexus6P安装Kali NetHunter(2022.1)
@@ -407,6 +407,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Userland registry hijacking](https://3gstudent.github.io/Userland-registry-hijacking) 
 
 - 
+ Veeam Backup & Replication漏洞调试环境搭建
+
+- 
  [VMware VCenter Server漏洞调试环境搭建](https://3gstudent.github.io/VMware-VCenter-Server%E6%BC%8F%E6%B4%9E%E8%B0%83%E8%AF%95%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA)
 
 - 
@@ -672,6 +675,9 @@ Github:   [3gstudent](https://github.com/3gstudent)
  
 - 
  渗透基础——Fortigate识别与版本探测
+ 
+- 
+ 渗透基础——Minio版本探测
  
 - 
  [渗透基础——SSH日志的绕过](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E5%9F%BA%E7%A1%80-SSH%E6%97%A5%E5%BF%97%E7%9A%84%E7%BB%95%E8%BF%87)
