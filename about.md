@@ -62,7 +62,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
 
 ---
 
-### Recent Posts(310/330)
+### Recent Posts(313/330)
 
 - 
  ADAudit Plus漏洞调试环境搭建
@@ -200,10 +200,10 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [Java利用技巧——AntSword-JSP-Template的优化](https://3gstudent.github.io/Java%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7-AntSword-JSP-Template%E7%9A%84%E4%BC%98%E5%8C%96)
  
 - 
- Java利用技巧——Jetty Filter型内存马
+ [Java利用技巧——Jetty Filter型内存马](https://3gstudent.github.io/Java%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7-Jetty-Filter%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC)
  
 - 
- Java利用技巧——Jetty Servlet型内存马
+ [Java利用技巧——Jetty Servlet型内存马](https://3gstudent.github.io/Java%E5%88%A9%E7%94%A8%E6%8A%80%E5%B7%A7-Jetty-Servlet%E5%9E%8B%E5%86%85%E5%AD%98%E9%A9%AC)
  
 - 
  [Joomla 3.4.4-3.6.3 Account Creation &Privilege Escalation测试记录](https://3gstudent.github.io/Joomla-3.4.4-3.6.3-Account-Creation-&Privilege-Escalation%E6%B5%8B%E8%AF%95%E8%AE%B0%E5%BD%95)
@@ -957,7 +957,7 @@ Github:   [3gstudent](https://github.com/3gstudent)
  [渗透技巧——"隐藏"注册表的更多测试](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E9%9A%90%E8%97%8F-%E6%B3%A8%E5%86%8C%E8%A1%A8%E7%9A%84%E6%9B%B4%E5%A4%9A%E6%B5%8B%E8%AF%95)
 
 - 
- 渗透技巧——远程访问Exchange Powershell
+ [渗透技巧——远程访问Exchange Powershell](https://3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E8%BF%9C%E7%A8%8B%E8%AE%BF%E9%97%AEExchange-Powershell)
 
 - 
  [通过.NET实现内存加载PE文件](https://3gstudent.github.io/%E9%80%9A%E8%BF%87.NET%E5%AE%9E%E7%8E%B0%E5%86%85%E5%AD%98%E5%8A%A0%E8%BD%BDPE%E6%96%87%E4%BB%B6)
