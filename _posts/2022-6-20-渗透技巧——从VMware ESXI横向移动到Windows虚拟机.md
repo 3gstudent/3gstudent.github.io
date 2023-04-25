@@ -197,7 +197,7 @@ Python3版本的地址：https://github.com/volatilityfoundation/volatility3
 volatility和volatility3的命令语法不同，功能基本相同，最新版本为[volatility3](https://github.com/volatilityfoundation/volatility3)，但这里选择[volatility](https://github.com/volatilityfoundation/volatility)，理由如下：
 
 - volatility有独立的可执行程序，volatility3需要自己编译
-- volatility3有mimikatz插件，可以从lsass进程提取数据，volatility3不支持这个插件
+- volatility有mimikatz插件，可以从lsass进程提取数据，volatility3不支持这个插件
 
 #### (1)定位镜像文件
 
